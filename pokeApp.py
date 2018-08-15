@@ -13,9 +13,10 @@ class App(Frame):
 
     def __init__(self, master):
         super(App, self).__init__(master)
-        self._data = pd.read_csv("./pokemon.csv")
-        self._pokeID = IntVar()
-        self._pokeID.set(0)
+        self._data = pd.read_csv("./pokemon.csv").fillna(" ")
+        self._pokeID = 0
+        self._region_map = {1: 'Kanto', 2: 'Johto', 3: 'Hoenn',
+                            4: 'Sinnoh', 5: 'Unova', 6: 'Kalos', 7: 'Alola'}
         self.grid()
         self.create_widgets()
 
@@ -36,23 +37,23 @@ class App(Frame):
 
         # Create output boxes that display the Pokémon's data
         Label(self, text = "ID:").grid(row = 2, column = 0, sticky = W)
-        self.id_disp = Text(self, wrap = WORD)
+        self.id_disp = Text(self, width = 20, height = 10, wrap = WORD)
         self.id_disp.grid(row = 2, column = 1, sticky = W)
 
         Label(self, text = "Name:").grid(row = 2, column = 2, sticky = W)
-        self.name_disp = Text(self, wrap = WORD)
+        self.name_disp = Text(self, width = 20, height = 10, wrap = WORD)
         self.name_disp.grid(row = 2, column = 3, sticky = W)
 
         Label(self, text = "Region:").grid(row = 3, column = 0, sticky = W)
-        self.region_disp = Text(self, wrap = WORD)
+        self.region_disp = Text(self, width = 20, height = 10, wrap = WORD)
         self.region_disp.grid(row = 3, column = 1, sticky = W)
 
         Label(self, text = "Pri Type:").grid(row = 4, column = 0, sticky = W)
-        self.pritype_disp = Text(self, wrap = WORD)
+        self.pritype_disp = Text(self, width = 20, height = 10, wrap = WORD)
         self.pritype_disp.grid(row = 4, column = 1, sticky = W)
 
         Label(self, text = "Sec Type:").grid(row = 4, column = 2, sticky = W)
-        self.sectype_disp = Text(self, wrap = WORD)
+        self.sectype_disp = Text(self, width = 20, height = 10, wrap = WORD)
         self.sectype_disp.grid(row = 4, column = 3, sticky = W)
 
         # Create navigation buttons to go forward and backward through Pokédex
@@ -68,14 +69,24 @@ class App(Frame):
             if type(query) == int:
                 return self._data.query('id == "{}"'.format(query)).values[0]
             else:
-                return self._data.query('species == "{}"'.format(query)).values[0]
+                return self._data.query('species == "{}"'.format(query.lower())).values[0]
         except (IndexError, ValueError):
-            message = "I'm sorry, I cannot find that Pokémon."
+            search_res = self._data.species.str.contains(query)
+            poss_res = search_res[(search_res == True)].index +1
+            if len(poss_res) > 0:
+                return self._data.query('id == "{}"'.format(poss_res[0])).values[0]
+            else:
+                message = "Pokémon not found."
                 return [0, message]
 
     def search_poke(self):
         """Passes value of search_ent to fetch_poke() to perform search"""
-        pokemon = self.fetch_poke(self.search_ent)
+        query = self.search_ent.get()
+        try:
+            query = int(query)
+        except ValueError:
+            print("Searching by name, not ID")
+        pokemon = self.fetch_poke(query)
         self._pokeID = pokemon[0]
         self.update(pokemon)
 
@@ -90,3 +101,33 @@ class App(Frame):
         pokemon = self.fetch_poke(self._pokeID + 1)
         self._pokeID = pokemon[0]
         self.update(pokemon)
+
+    def update(self, data):
+        """Updates the GUI with new information."""
+
+
+        # Clear all text boxes
+        self.id_disp.delete(0.0, END)
+        self.name_disp.delete(0.0, END)
+        self.region_disp.delete(0.0, END)
+        self.pritype_disp.delete(0.0, END)
+        self.sectype_disp.delete(0.0, END)
+
+        if int(self._pokeID) != 0:
+            self.id_disp.insert(0.0, data[0])
+            self.name_disp.insert(0.0, data[1].title())
+            self.region_disp.insert(0.0, self._region_map[data[2]])
+            self.pritype_disp.insert(0.0, data[6].capitalize())
+            self.sectype_disp.insert(0.0, data[7].capitalize())
+
+        else:
+            self.name_disp.insert(0.0, data[1])
+
+def main():
+    root = Tk()
+    root.title("Pokédex")
+    app = App(root)
+    root.mainloop()
+
+if __name__ == '__main__':
+    main()
