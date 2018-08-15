@@ -15,7 +15,7 @@ def fetch_poke(query):
         if type(query) == int:
             return pokelist.query('id == "{}"'.format(query)).values[0]
         else:
-            return pokelist.query('species == "{}"'.format(query)).values[0]
+            return pokelist.query('species == "{}"'.format(query.lower())).values[0]
     except (IndexError, ValueError):
         print("I'm sorry, I cannot find that Pokémon.")
         return [0]
