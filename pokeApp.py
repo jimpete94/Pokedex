@@ -15,10 +15,13 @@ class App(Frame):
         super(App, self).__init__(master)
         self._data = pd.read_csv("./pokemon.csv").fillna(" ")
         self._pokeID = 0
+        # Dict of Regions, mapped to values in dataframe
         self._region_map = {1: 'Kanto', 2: 'Johto', 3: 'Hoenn',
                             4: 'Sinnoh', 5: 'Unova', 6: 'Kalos', 7: 'Alola'}
         self._image_path = './images/'
         self._welcome_img =self.load_image('pokemon_logo.jpg')
+        # PIL requires to keep a record of object
+        # use `.paste()` method to replace image
         self._img = ImageTk.PhotoImage(self._welcome_img)
         self.grid()
         self.create_widgets()
@@ -76,12 +79,12 @@ class App(Frame):
     def fetch_poke(self, query):
         """queries the pandas dataframe using name, returns a series with data"""
         try:
-            if type(query) == int:
+            if type(query) == int:  # Search by number
                 return self._data.query('id == "{}"'.format(query)).values[0]
-            else:
+            else:   # Search by name
                 return self._data.query('species == "{}"'.format(query.lower())).values[0]
         except (IndexError, ValueError):
-            try:
+            try:    # Search for partial name
                 search_res = self._data.species.str.contains(query.lower())
                 poss_res = search_res[(search_res == True)].index +1
                 if len(poss_res) > 0:
@@ -89,28 +92,28 @@ class App(Frame):
                 else:
                     message = "Pokémon not found."
                     return [0, message]
-            except TypeError:
+            except TypeError:   # Give up looking
                 message = "Pokémon not found."
                 return [0, message]
 
     def load_image(self, image):
         """Use PIL to load an image that Tk will use."""
-        try:
+        try:    # Use name from dataframe to look for image
             image_file = self._image_path+image
             img = Image.open(image_file)
             img.resize((500, 300))
             return img
-        except FileNotFoundError:
+        except FileNotFoundError:   # If not found, just show pokemon logo
             return self._welcome_img
 
     def search_poke(self):
         """Passes value of search_ent to fetch_poke() to perform search"""
         query = self.search_ent.get()
-        try:
+        try:    # Convert string to number, if able
             query = int(query)
         except ValueError:
             print("Searching by name, not ID")
-        pokemon = self.fetch_poke(query)
+            pokemon = self.fetch_poke(query)
         self._pokeID = pokemon[0]
         self.update(pokemon)
 
@@ -136,8 +139,9 @@ class App(Frame):
         self.region_disp.delete(0.0, END)
         self.pritype_disp.delete(0.0, END)
         self.sectype_disp.delete(0.0, END)
-        #self.canvas.delete(self._im)
+        self.search_ent.delete.delete(0.0, END)
 
+        # If Pokémon is found, show data
         if int(self._pokeID) != 0:
             self.id_disp.insert(0.0, data[0])
             self.name_disp.insert(0.0, data[1].title())
@@ -146,12 +150,11 @@ class App(Frame):
             self.sectype_disp.insert(0.0, data[7].capitalize())
             img = self.load_image(data[1]+'.jpg')
             self._img.paste(img)
-            #self._im = self.canvas.create_image(0,0, image=slef._img, anchor='nw')
 
+        # If not, display message
         else:
             self.name_disp.insert(0.0, data[1])
             self._img.paste(self._welcome_img)
-            #self._im = self.canvas.create_image(0,0, image=self._img, anchor='nw')
 
 def main():
     root = Tk()
