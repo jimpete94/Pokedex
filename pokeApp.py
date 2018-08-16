@@ -4,7 +4,7 @@ import guizero
 import pandas as pd
 
 from tkinter import *
-from PIL import ImageTk
+from PIL import Image, ImageTk
 
 
 
@@ -17,8 +17,13 @@ class App(Frame):
         self._pokeID = 0
         self._region_map = {1: 'Kanto', 2: 'Johto', 3: 'Hoenn',
                             4: 'Sinnoh', 5: 'Unova', 6: 'Kalos', 7: 'Alola'}
+        self._image_path = './images/'
+        self._welcome_img =self.load_image('pokemon_logo.jpg')
+        self._img = ImageTk.PhotoImage(self._welcome_img)
         self.grid()
         self.create_widgets()
+        #self._image.paste(self._welcome_img, bbox=None)
+        self._im = self.canvas.create_image(0,0, image=self._img, anchor='nw')
 
     def create_widgets(self):
         """ Creates all internal aspects of the app"""
@@ -27,41 +32,46 @@ class App(Frame):
         Label(self, text = "Welcome to the Pokédex!").grid(row = 0, column = 0,
         columnspan = 2, sticky = W)
 
+        # Create canvas for displaying pokemon images
+        self.canvas = Canvas(self, width = 500, height = 300)
+        self.canvas.grid(row = 1, column = 0,
+        columnspan = 5, sticky = W)
+
         # Create a search box for users to search through the Pokédex
-        Label(self, text = "Search:").grid(row = 1, column = 0, sticky = W)
+        Label(self, text = "Search:").grid(row = 2, column = 0, sticky = W)
         self.search_ent = Entry(self)
-        self.search_ent.grid(row = 1, column = 1, sticky = W)
+        self.search_ent.grid(row = 2, column = 1, sticky = W)
 
         Button(self, text = "Go!",
-        command = self.search_poke).grid(row = 1, column = 2, sticky = W)
+        command = self.search_poke).grid(row = 2, column = 2, sticky = W)
 
         # Create output boxes that display the Pokémon's data
-        Label(self, text = "ID:").grid(row = 2, column = 0, sticky = W)
-        self.id_disp = Text(self, width = 20, height = 10, wrap = WORD)
-        self.id_disp.grid(row = 2, column = 1, sticky = W)
+        Label(self, text = "ID:").grid(row = 3, column = 0, sticky = W)
+        self.id_disp = Text(self, width = 20, height = 2, wrap = WORD)
+        self.id_disp.grid(row = 3, column = 1, sticky = W)
 
-        Label(self, text = "Name:").grid(row = 2, column = 2, sticky = W)
-        self.name_disp = Text(self, width = 20, height = 10, wrap = WORD)
-        self.name_disp.grid(row = 2, column = 3, sticky = W)
+        Label(self, text = "Name:").grid(row = 3, column = 2, sticky = W)
+        self.name_disp = Text(self, width = 20, height = 2, wrap = WORD)
+        self.name_disp.grid(row = 3, column = 3, sticky = W)
 
-        Label(self, text = "Region:").grid(row = 3, column = 0, sticky = W)
-        self.region_disp = Text(self, width = 20, height = 10, wrap = WORD)
-        self.region_disp.grid(row = 3, column = 1, sticky = W)
+        Label(self, text = "Region:").grid(row = 4, column = 0, sticky = W)
+        self.region_disp = Text(self, width = 20, height = 2, wrap = WORD)
+        self.region_disp.grid(row = 4, column = 1, sticky = W)
 
-        Label(self, text = "Pri Type:").grid(row = 4, column = 0, sticky = W)
-        self.pritype_disp = Text(self, width = 20, height = 10, wrap = WORD)
-        self.pritype_disp.grid(row = 4, column = 1, sticky = W)
+        Label(self, text = "Pri Type:").grid(row = 5, column = 0, sticky = W)
+        self.pritype_disp = Text(self, width = 20, height = 2, wrap = WORD)
+        self.pritype_disp.grid(row = 5, column = 1, sticky = W)
 
-        Label(self, text = "Sec Type:").grid(row = 4, column = 2, sticky = W)
-        self.sectype_disp = Text(self, width = 20, height = 10, wrap = WORD)
-        self.sectype_disp.grid(row = 4, column = 3, sticky = W)
+        Label(self, text = "Sec Type:").grid(row = 5, column = 2, sticky = W)
+        self.sectype_disp = Text(self, width = 20, height = 2, wrap = WORD)
+        self.sectype_disp.grid(row = 5, column = 3, sticky = W)
 
         # Create navigation buttons to go forward and backward through Pokédex
         Button(self, text = "Prev",
-        command = self.prev_poke).grid(row = 5, column = 1, sticky = W)
+        command = self.prev_poke).grid(row = 6, column = 1, sticky = W)
 
         Button(self, text = "Next",
-        command = self.next_poke).grid(row = 5, column = 2, stick = W)
+        command = self.next_poke).grid(row = 6, column = 2, stick = W)
 
     def fetch_poke(self, query):
         """queries the pandas dataframe using name, returns a series with data"""
@@ -71,13 +81,27 @@ class App(Frame):
             else:
                 return self._data.query('species == "{}"'.format(query.lower())).values[0]
         except (IndexError, ValueError):
-            search_res = self._data.species.str.contains(query)
-            poss_res = search_res[(search_res == True)].index +1
-            if len(poss_res) > 0:
-                return self._data.query('id == "{}"'.format(poss_res[0])).values[0]
-            else:
+            try:
+                search_res = self._data.species.str.contains(query.lower())
+                poss_res = search_res[(search_res == True)].index +1
+                if len(poss_res) > 0:
+                    return self._data.query('id == "{}"'.format(poss_res[0])).values[0]
+                else:
+                    message = "Pokémon not found."
+                    return [0, message]
+            except TypeError:
                 message = "Pokémon not found."
                 return [0, message]
+
+    def load_image(self, image):
+        """Use PIL to load an image that Tk will use."""
+        try:
+            image_file = self._image_path+image
+            img = Image.open(image_file)
+            img.resize((500, 300))
+            return img
+        except FileNotFoundError:
+            return self._welcome_img
 
     def search_poke(self):
         """Passes value of search_ent to fetch_poke() to perform search"""
@@ -112,6 +136,7 @@ class App(Frame):
         self.region_disp.delete(0.0, END)
         self.pritype_disp.delete(0.0, END)
         self.sectype_disp.delete(0.0, END)
+        #self.canvas.delete(self._im)
 
         if int(self._pokeID) != 0:
             self.id_disp.insert(0.0, data[0])
@@ -119,9 +144,14 @@ class App(Frame):
             self.region_disp.insert(0.0, self._region_map[data[2]])
             self.pritype_disp.insert(0.0, data[6].capitalize())
             self.sectype_disp.insert(0.0, data[7].capitalize())
+            img = self.load_image(data[1]+'.jpg')
+            self._img.paste(img)
+            #self._im = self.canvas.create_image(0,0, image=slef._img, anchor='nw')
 
         else:
             self.name_disp.insert(0.0, data[1])
+            self._img.paste(self._welcome_img)
+            #self._im = self.canvas.create_image(0,0, image=self._img, anchor='nw')
 
 def main():
     root = Tk()
