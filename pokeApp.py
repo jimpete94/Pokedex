@@ -139,8 +139,7 @@ class App(Frame):
         self.region_disp.delete(0.0, END)
         self.pritype_disp.delete(0.0, END)
         self.sectype_disp.delete(0.0, END)
-        self.search_ent.delete.delete(0.0, END)
-
+        
         # If Pokémon is found, show data
         if int(self._pokeID) != 0:
             self.id_disp.insert(0.0, data[0])
