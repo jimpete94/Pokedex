@@ -76,25 +76,30 @@ class App(Frame):
         Button(self, text = "Next",
         command = self.next_poke).grid(row = 6, column = 2, stick = W)
 
-    def fetch_poke(self, query):
-        """queries the pandas dataframe using name, returns a series with data"""
-        try:
-            if type(query) == int:  # Search by number
-                return self._data.query('id == "{}"'.format(query)).values[0]
-            else:   # Search by name
-                return self._data.query('species == "{}"'.format(query.lower())).values[0]
-        except (IndexError, ValueError):
-            try:    # Search for partial name
-                search_res = self._data.species.str.contains(query.lower())
-                poss_res = search_res[(search_res == True)].index +1
-                if len(poss_res) > 0:
-                    return self._data.query('id == "{}"'.format(poss_res[0])).values[0]
-                else:
-                    message = "Pokémon not found."
-                    return [0, message]
-            except TypeError:   # Give up looking
-                message = "Pokémon not found."
+    def fetch_id(self, query):
+        """queries the pandas dataframe using ID, returns a series with data"""
+        # Search between max and min values of pokedex, allows for future expansion
+        if self._data.id.min() <= query <= self._data.id.max():
+            return self._data.query('id == "{}"'.format(query)).values[0]
+        else:
+            message = 'ID number does not exist'
+            return [0, message]
+
+    def fetch_name(self, query):
+        """queries the pandas dataframe by name, returns a series with data"""
+        try:    # Search for name, partial or otherwise
+            # Get series with true or false values
+            search_res = self._data.species.str.contains(query.lower())
+            # Isolate the true values and convert index to ID
+            poss_res = search_res[(search_res == True)].index +1
+            if len(poss_res) > 0:
+                return self.fetch_id(poss_res[0])
+            else:
+                message = 'Pokemon not found'
                 return [0, message]
+        except TypeError:   # Give up looking
+            message = 'Pokemon not found'
+            return [0, message]
 
     def load_image(self, image):
         """Use PIL to load an image that Tk will use."""
@@ -111,27 +116,28 @@ class App(Frame):
         query = self.search_ent.get()
         try:    # Convert string to number, if able
             query = int(query)
+            print("Searching by ID")
+            pokemon = self.fetch_id(query)
         except ValueError:
             print("Searching by name, not ID")
-            pokemon = self.fetch_poke(query)
+            pokemon = self.fetch_name(query)
         self._pokeID = pokemon[0]
         self.update(pokemon)
 
     def prev_poke(self):
         """ Passes current _pokeID-1 to fetch_poke to retrieve previous data"""
-        pokemon = self.fetch_poke(self._pokeID - 1)
+        pokemon = self.fetch_id(self._pokeID - 1)
         self._pokeID = pokemon[0]
         self.update(pokemon)
 
     def next_poke(self):
         """ Passes current _pokeID+1 to fetch_poke to retrieve next data"""
-        pokemon = self.fetch_poke(self._pokeID + 1)
+        pokemon = self.fetch_id(self._pokeID + 1)
         self._pokeID = pokemon[0]
         self.update(pokemon)
 
     def update(self, data):
         """Updates the GUI with new information."""
-
 
         # Clear all text boxes
         self.id_disp.delete(0.0, END)
@@ -139,7 +145,7 @@ class App(Frame):
         self.region_disp.delete(0.0, END)
         self.pritype_disp.delete(0.0, END)
         self.sectype_disp.delete(0.0, END)
-        
+
         # If Pokémon is found, show data
         if int(self._pokeID) != 0:
             self.id_disp.insert(0.0, data[0])
