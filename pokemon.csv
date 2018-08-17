@@ -1,22 +1,22 @@
-id,species,generation_id,height,weight,base_experience,type_1,type_2,hp,attack,defense,speed,special-attack,special-defense
-1,bulbasaur,1,0.7,6.9,64,grass,poison,45,49,49,45,65,65
-2,ivysaur,1,1.0,13.0,142,grass,poison,60,62,63,60,80,80
-3,venusaur,1,2.0,100.0,236,grass,poison,80,82,83,80,100,100
-4,charmander,1,0.6,8.5,62,fire,,39,52,43,65,60,50
-5,charmeleon,1,1.1,19.0,142,fire,,58,64,58,80,80,65
-6,charizard,1,1.7,90.5,240,fire,flying,78,84,78,100,109,85
-7,squirtle,1,0.5,9.0,63,water,,44,48,65,43,50,64
-8,wartortle,1,1.0,22.5,142,water,,59,63,80,58,65,80
-9,blastoise,1,1.6,85.5,239,water,,79,83,100,78,85,105
-10,caterpie,1,0.3,2.9,39,bug,,45,30,35,45,20,20
-11,metapod,1,0.7,9.9,72,bug,,50,20,55,30,25,25
-12,butterfree,1,1.1,32.0,178,bug,flying,60,45,50,70,90,80
-13,weedle,1,0.3,3.2,39,bug,poison,40,35,30,50,20,20
-14,kakuna,1,0.6,10.0,72,bug,poison,45,25,50,35,25,25
-15,beedrill,1,1.0,29.5,178,bug,poison,65,90,40,75,45,80
-16,pidgey,1,0.3,1.8,50,normal,flying,40,45,40,56,35,35
-17,pidgeotto,1,1.1,30.0,122,normal,flying,63,60,55,71,50,50
-18,pidgeot,1,1.5,39.5,216,normal,flying,83,80,75,101,70,70
+id,species,generation_id,height,weight,base_experience,type_1,type_2,hp,attack,defense,speed,special-attack,special-defense,description
+1,bulbasaur,1,0.7,6.9,64,grass,poison,45,49,49,45,65,65,Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
+2,ivysaur,1,1.0,13.0,142,grass,poison,60,62,63,60,80,80,There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.
+3,venusaur,1,2.0,100.0,236,grass,poison,80,82,83,80,100,100,There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.
+4,charmander,1,0.6,8.5,62,fire,,39,52,43,65,60,50,The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.
+5,charmeleon,1,1.1,19.0,142,fire,,58,64,58,80,80,65,Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.
+6,charizard,1,1.7,90.5,240,fire,flying,78,84,78,100,109,85,Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.
+7,squirtle,1,0.5,9.0,63,water,,44,48,65,43,50,64,Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.
+8,wartortle,1,1.0,22.5,142,water,,59,63,80,58,65,80,Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.
+9,blastoise,1,1.6,85.5,239,water,,79,83,100,78,85,105,Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.
+10,caterpie,1,0.3,2.9,39,bug,,45,30,35,45,20,20,Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.
+11,metapod,1,0.7,9.9,72,bug,,50,20,55,30,25,25,The shell covering this Pokémon's body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.
+12,butterfree,1,1.1,32.0,178,bug,flying,60,45,50,70,90,80,Butterfree has a superior ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest.
+13,weedle,1,0.3,3.2,39,bug,poison,40,35,30,50,20,20,Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).
+14,kakuna,1,0.6,10.0,72,bug,poison,45,25,50,35,25,25,Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.
+15,beedrill,1,1.0,29.5,178,bug,poison,65,90,40,75,45,80,Beedrill is extremely territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm.
+16,pidgey,1,0.3,1.8,50,normal,flying,40,45,40,56,35,35,Pidgey has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings.
+17,pidgeotto,1,1.1,30.0,122,normal,flying,63,60,55,71,50,50,Pidgeotto claims a large area as its own territory. This Pokémon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.
+18,pidgeot,1,1.5,39.5,216,normal,flying,83,80,75,101,70,70This Pokémon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon.
 19,rattata,1,0.3,3.5,51,normal,,30,56,35,72,25,35
 20,raticate,1,0.7,18.5,145,normal,,55,81,60,97,50,70
 21,spearow,1,0.3,2.0,52,normal,flying,40,60,30,70,31,31
