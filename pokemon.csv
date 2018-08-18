@@ -1,555 +1,555 @@
 id,species,generation_id,height,weight,base_experience,type_1,type_2,hp,attack,defense,speed,special-attack,special-defense,description
-1,bulbasaur,1,0.7,6.9,64,grass,poison,45,49,49,45,65,65,Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
-2,ivysaur,1,1.0,13.0,142,grass,poison,60,62,63,60,80,80,There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.
-3,venusaur,1,2.0,100.0,236,grass,poison,80,82,83,80,100,100,There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.
-4,charmander,1,0.6,8.5,62,fire,,39,52,43,65,60,50,The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.
-5,charmeleon,1,1.1,19.0,142,fire,,58,64,58,80,80,65,Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.
-6,charizard,1,1.7,90.5,240,fire,flying,78,84,78,100,109,85,Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.
-7,squirtle,1,0.5,9.0,63,water,,44,48,65,43,50,64,Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.
-8,wartortle,1,1.0,22.5,142,water,,59,63,80,58,65,80,Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.
-9,blastoise,1,1.6,85.5,239,water,,79,83,100,78,85,105,Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.
-10,caterpie,1,0.3,2.9,39,bug,,45,30,35,45,20,20,Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.
-11,metapod,1,0.7,9.9,72,bug,,50,20,55,30,25,25,The shell covering this Pokémon's body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.
-12,butterfree,1,1.1,32.0,178,bug,flying,60,45,50,70,90,80,Butterfree has a superior ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest.
-13,weedle,1,0.3,3.2,39,bug,poison,40,35,30,50,20,20,Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).
-14,kakuna,1,0.6,10.0,72,bug,poison,45,25,50,35,25,25,Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.
-15,beedrill,1,1.0,29.5,178,bug,poison,65,90,40,75,45,80,Beedrill is extremely territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm.
-16,pidgey,1,0.3,1.8,50,normal,flying,40,45,40,56,35,35,Pidgey has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings.
-17,pidgeotto,1,1.1,30.0,122,normal,flying,63,60,55,71,50,50,Pidgeotto claims a large area as its own territory. This Pokémon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.
-18,pidgeot,1,1.5,39.5,216,normal,flying,83,80,75,101,70,70This Pokémon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon.
-19,rattata,1,0.3,3.5,51,normal,,30,56,35,72,25,35
-20,raticate,1,0.7,18.5,145,normal,,55,81,60,97,50,70
-21,spearow,1,0.3,2.0,52,normal,flying,40,60,30,70,31,31
-22,fearow,1,1.2,38.0,155,normal,flying,65,90,65,100,61,61
-23,ekans,1,2.0,6.9,58,poison,,35,60,44,55,40,54
-24,arbok,1,3.5,65.0,157,poison,,60,95,69,80,65,79
-25,pikachu,1,0.4,6.0,112,electric,,35,55,40,90,50,50
-26,raichu,1,0.8,30.0,218,electric,,60,90,55,110,90,80
-27,sandshrew,1,0.6,12.0,60,ground,,50,75,85,40,20,30
-28,sandslash,1,1.0,29.5,158,ground,,75,100,110,65,45,55
-29,nidoran♀,1,0.4,7.0,55,poison,,55,47,52,41,40,40
-30,nidorina,1,0.8,20.0,128,poison,,70,62,67,56,55,55
-31,nidoqueen,1,1.3,60.0,227,poison,ground,90,92,87,76,75,85
-32,nidoran♂,1,0.5,9.0,55,poison,,46,57,40,50,40,40
-33,nidorino,1,0.9,19.5,128,poison,,61,72,57,65,55,55
-34,nidoking,1,1.4,62.0,227,poison,ground,81,102,77,85,85,75
-35,clefairy,1,0.6,7.5,113,fairy,,70,45,48,35,60,65
-36,clefable,1,1.3,40.0,217,fairy,,95,70,73,60,95,90
-37,vulpix,1,0.6,9.9,60,fire,,38,41,40,65,50,65
-38,ninetales,1,1.1,19.9,177,fire,,73,76,75,100,81,100
-39,jigglypuff,1,0.5,5.5,95,normal,fairy,115,45,20,20,45,25
-40,wigglytuff,1,1.0,12.0,196,normal,fairy,140,70,45,45,85,50
-41,zubat,1,0.8,7.5,49,poison,flying,40,45,35,55,30,40
-42,golbat,1,1.6,55.0,159,poison,flying,75,80,70,90,65,75
-43,oddish,1,0.5,5.4,64,grass,poison,45,50,55,30,75,65
-44,gloom,1,0.8,8.6,138,grass,poison,60,65,70,40,85,75
-45,vileplume,1,1.2,18.6,221,grass,poison,75,80,85,50,110,90
-46,paras,1,0.3,5.4,57,bug,grass,35,70,55,25,45,55
-47,parasect,1,1.0,29.5,142,bug,grass,60,95,80,30,60,80
-48,venonat,1,1.0,30.0,61,bug,poison,60,55,50,45,40,55
-49,venomoth,1,1.5,12.5,158,bug,poison,70,65,60,90,90,75
-50,diglett,1,0.2,0.8,53,ground,,10,55,25,95,35,45
-51,dugtrio,1,0.7,33.3,149,ground,,35,100,50,120,50,70
-52,meowth,1,0.4,4.2,58,normal,,40,45,35,90,40,40
-53,persian,1,1.0,32.0,154,normal,,65,70,60,115,65,65
-54,psyduck,1,0.8,19.6,64,water,,50,52,48,55,65,50
-55,golduck,1,1.7,76.6,175,water,,80,82,78,85,95,80
-56,mankey,1,0.5,28.0,61,fighting,,40,80,35,70,35,45
-57,primeape,1,1.0,32.0,159,fighting,,65,105,60,95,60,70
-58,growlithe,1,0.7,19.0,70,fire,,55,70,45,60,70,50
-59,arcanine,1,1.9,155.0,194,fire,,90,110,80,95,100,80
-60,poliwag,1,0.6,12.4,60,water,,40,50,40,90,40,40
-61,poliwhirl,1,1.0,20.0,135,water,,65,65,65,90,50,50
-62,poliwrath,1,1.3,54.0,230,water,fighting,90,95,95,70,70,90
-63,abra,1,0.9,19.5,62,psychic,,25,20,15,90,105,55
-64,kadabra,1,1.3,56.5,140,psychic,,40,35,30,105,120,70
-65,alakazam,1,1.5,48.0,225,psychic,,55,50,45,120,135,95
-66,machop,1,0.8,19.5,61,fighting,,70,80,50,35,35,35
-67,machoke,1,1.5,70.5,142,fighting,,80,100,70,45,50,60
-68,machamp,1,1.6,130.0,227,fighting,,90,130,80,55,65,85
-69,bellsprout,1,0.7,4.0,60,grass,poison,50,75,35,40,70,30
-70,weepinbell,1,1.0,6.4,137,grass,poison,65,90,50,55,85,45
-71,victreebel,1,1.7,15.5,221,grass,poison,80,105,65,70,100,70
-72,tentacool,1,0.9,45.5,67,water,poison,40,40,35,70,50,100
-73,tentacruel,1,1.6,55.0,180,water,poison,80,70,65,100,80,120
-74,geodude,1,0.4,20.0,60,rock,ground,40,80,100,20,30,30
-75,graveler,1,1.0,105.0,137,rock,ground,55,95,115,35,45,45
-76,golem,1,1.4,300.0,223,rock,ground,80,120,130,45,55,65
-77,ponyta,1,1.0,30.0,82,fire,,50,85,55,90,65,65
-78,rapidash,1,1.7,95.0,175,fire,,65,100,70,105,80,80
-79,slowpoke,1,1.2,36.0,63,water,psychic,90,65,65,15,40,40
-80,slowbro,1,1.6,78.5,172,water,psychic,95,75,110,30,100,80
-81,magnemite,1,0.3,6.0,65,electric,steel,25,35,70,45,95,55
-82,magneton,1,1.0,60.0,163,electric,steel,50,60,95,70,120,70
-83,farfetch'd,1,0.8,15.0,132,normal,flying,52,90,55,60,58,62
-84,doduo,1,1.4,39.2,62,normal,flying,35,85,45,75,35,35
-85,dodrio,1,1.8,85.2,165,normal,flying,60,110,70,110,60,60
-86,seel,1,1.1,90.0,65,water,,65,45,55,45,45,70
-87,dewgong,1,1.7,120.0,166,water,ice,90,70,80,70,70,95
-88,grimer,1,0.9,30.0,65,poison,,80,80,50,25,40,50
-89,muk,1,1.2,30.0,175,poison,,105,105,75,50,65,100
-90,shellder,1,0.3,4.0,61,water,,30,65,100,40,45,25
-91,cloyster,1,1.5,132.5,184,water,ice,50,95,180,70,85,45
-92,gastly,1,1.3,0.1,62,ghost,poison,30,35,30,80,100,35
-93,haunter,1,1.6,0.1,142,ghost,poison,45,50,45,95,115,55
-94,gengar,1,1.5,40.5,225,ghost,poison,60,65,60,110,130,75
-95,onix,1,8.8,210.0,77,rock,ground,35,45,160,70,30,45
-96,drowzee,1,1.0,32.4,66,psychic,,60,48,45,42,43,90
-97,hypno,1,1.6,75.6,169,psychic,,85,73,70,67,73,115
-98,krabby,1,0.4,6.5,65,water,,30,105,90,50,25,25
-99,kingler,1,1.3,60.0,166,water,,55,130,115,75,50,50
-100,voltorb,1,0.5,10.4,66,electric,,40,30,50,100,55,55
-101,electrode,1,1.2,66.6,172,electric,,60,50,70,150,80,80
-102,exeggcute,1,0.4,2.5,65,grass,psychic,60,40,80,40,60,45
-103,exeggutor,1,2.0,120.0,186,grass,psychic,95,95,85,55,125,75
-104,cubone,1,0.4,6.5,64,ground,,50,50,95,35,40,50
-105,marowak,1,1.0,45.0,149,ground,,60,80,110,45,50,80
-106,hitmonlee,1,1.5,49.8,159,fighting,,50,120,53,87,35,110
-107,hitmonchan,1,1.4,50.2,159,fighting,,50,105,79,76,35,110
-108,lickitung,1,1.2,65.5,77,normal,,90,55,75,30,60,75
-109,koffing,1,0.6,1.0,68,poison,,40,65,95,35,60,45
-110,weezing,1,1.2,9.5,172,poison,,65,90,120,60,85,70
-111,rhyhorn,1,1.0,115.0,69,ground,rock,80,85,95,25,30,30
-112,rhydon,1,1.9,120.0,170,ground,rock,105,130,120,40,45,45
-113,chansey,1,1.1,34.6,395,normal,,250,5,5,50,35,105
-114,tangela,1,1.0,35.0,87,grass,,65,55,115,60,100,40
-115,kangaskhan,1,2.2,80.0,172,normal,,105,95,80,90,40,80
-116,horsea,1,0.4,8.0,59,water,,30,40,70,60,70,25
-117,seadra,1,1.2,25.0,154,water,,55,65,95,85,95,45
-118,goldeen,1,0.6,15.0,64,water,,45,67,60,63,35,50
-119,seaking,1,1.3,39.0,158,water,,80,92,65,68,65,80
-120,staryu,1,0.8,34.5,68,water,,30,45,55,85,70,55
-121,starmie,1,1.1,80.0,182,water,psychic,60,75,85,115,100,85
-122,mr mime,1,1.3,54.5,161,psychic,fairy,40,45,65,90,100,120
-123,scyther,1,1.5,56.0,100,bug,flying,70,110,80,105,55,80
-124,jynx,1,1.4,40.6,159,ice,psychic,65,50,35,95,115,95
-125,electabuzz,1,1.1,30.0,172,electric,,65,83,57,105,95,85
-126,magmar,1,1.3,44.5,173,fire,,65,95,57,93,100,85
-127,pinsir,1,1.5,55.0,175,bug,,65,125,100,85,55,70
-128,tauros,1,1.4,88.4,172,normal,,75,100,95,110,40,70
-129,magikarp,1,0.9,10.0,40,water,,20,10,55,80,15,20
-130,gyarados,1,6.5,235.0,189,water,flying,95,125,79,81,60,100
-131,lapras,1,2.5,220.0,187,water,ice,130,85,80,60,85,95
-132,ditto,1,0.3,4.0,101,normal,,48,48,48,48,48,48
-133,eevee,1,0.3,6.5,65,normal,,55,55,50,55,45,65
-134,vaporeon,1,1.0,29.0,184,water,,130,65,60,65,110,95
-135,jolteon,1,0.8,24.5,184,electric,,65,65,60,130,110,95
-136,flareon,1,0.9,25.0,184,fire,,65,130,60,65,95,110
-137,porygon,1,0.8,36.5,79,normal,,65,60,70,40,85,75
-138,omanyte,1,0.4,7.5,71,rock,water,35,40,100,35,90,55
-139,omastar,1,1.0,35.0,173,rock,water,70,60,125,55,115,70
-140,kabuto,1,0.5,11.5,71,rock,water,30,80,90,55,55,45
-141,kabutops,1,1.3,40.5,173,rock,water,60,115,105,80,65,70
-142,aerodactyl,1,1.8,59.0,180,rock,flying,80,105,65,130,60,75
-143,snorlax,1,2.1,460.0,189,normal,,160,110,65,30,65,110
-144,articuno,1,1.7,55.4,261,ice,flying,90,85,100,85,95,125
-145,zapdos,1,1.6,52.6,261,electric,flying,90,90,85,100,125,90
-146,moltres,1,2.0,60.0,261,fire,flying,90,100,90,90,125,85
-147,dratini,1,1.8,3.3,60,dragon,,41,64,45,50,50,50
-148,dragonair,1,4.0,16.5,147,dragon,,61,84,65,70,70,70
-149,dragonite,1,2.2,210.0,270,dragon,flying,91,134,95,80,100,100
-150,mewtwo,1,2.0,122.0,306,psychic,,106,110,90,130,154,90
-151,mew,1,0.4,4.0,270,psychic,,100,100,100,100,100,100
-152,chikorita,2,0.9,6.4,64,grass,,45,49,65,45,49,65
-153,bayleef,2,1.2,15.8,142,grass,,60,62,80,60,63,80
-154,meganium,2,1.8,100.5,236,grass,,80,82,100,80,83,100
-155,cyndaquil,2,0.5,7.9,62,fire,,39,52,43,65,60,50
-156,quilava,2,0.9,19.0,142,fire,,58,64,58,80,80,65
-157,typhlosion,2,1.7,79.5,240,fire,,78,84,78,100,109,85
-158,totodile,2,0.6,9.5,63,water,,50,65,64,43,44,48
-159,croconaw,2,1.1,25.0,142,water,,65,80,80,58,59,63
-160,feraligatr,2,2.3,88.8,239,water,,85,105,100,78,79,83
-161,sentret,2,0.8,6.0,43,normal,,35,46,34,20,35,45
-162,furret,2,1.8,32.5,145,normal,,85,76,64,90,45,55
-163,hoothoot,2,0.7,21.2,52,normal,flying,60,30,30,50,36,56
-164,noctowl,2,1.6,40.8,158,normal,flying,100,50,50,70,86,96
-165,ledyba,2,1.0,10.8,53,bug,flying,40,20,30,55,40,80
-166,ledian,2,1.4,35.6,137,bug,flying,55,35,50,85,55,110
-167,spinarak,2,0.5,8.5,50,bug,poison,40,60,40,30,40,40
-168,ariados,2,1.1,33.5,140,bug,poison,70,90,70,40,60,70
-169,crobat,2,1.8,75.0,241,poison,flying,85,90,80,130,70,80
-170,chinchou,2,0.5,12.0,66,water,electric,75,38,38,67,56,56
-171,lanturn,2,1.2,22.5,161,water,electric,125,58,58,67,76,76
-172,pichu,2,0.3,2.0,41,electric,,20,40,15,60,35,35
-173,cleffa,2,0.3,3.0,44,fairy,,50,25,28,15,45,55
-174,igglybuff,2,0.3,1.0,42,normal,fairy,90,30,15,15,40,20
-175,togepi,2,0.3,1.5,49,fairy,,35,20,65,20,40,65
-176,togetic,2,0.6,3.2,142,fairy,flying,55,40,85,40,80,105
-177,natu,2,0.2,2.0,64,psychic,flying,40,50,45,70,70,45
-178,xatu,2,1.5,15.0,165,psychic,flying,65,75,70,95,95,70
-179,mareep,2,0.6,7.8,56,electric,,55,40,40,35,65,45
-180,flaaffy,2,0.8,13.3,128,electric,,70,55,55,45,80,60
-181,ampharos,2,1.4,61.5,230,electric,,90,75,85,55,115,90
-182,bellossom,2,0.4,5.8,221,grass,,75,80,95,50,90,100
-183,marill,2,0.4,8.5,88,water,fairy,70,20,50,40,20,50
-184,azumarill,2,0.8,28.5,189,water,fairy,100,50,80,50,60,80
-185,sudowoodo,2,1.2,38.0,144,rock,,70,100,115,30,30,65
-186,politoed,2,1.1,33.9,225,water,,90,75,75,70,90,100
-187,hoppip,2,0.4,0.5,50,grass,flying,35,35,40,50,35,55
-188,skiploom,2,0.6,1.0,119,grass,flying,55,45,50,80,45,65
-189,jumpluff,2,0.8,3.0,207,grass,flying,75,55,70,110,55,95
-190,aipom,2,0.8,11.5,72,normal,,55,70,55,85,40,55
-191,sunkern,2,0.3,1.8,36,grass,,30,30,30,30,30,30
-192,sunflora,2,0.8,8.5,149,grass,,75,75,55,30,105,85
-193,yanma,2,1.2,38.0,78,bug,flying,65,65,45,95,75,45
-194,wooper,2,0.4,8.5,42,water,ground,55,45,45,15,25,25
-195,quagsire,2,1.4,75.0,151,water,ground,95,85,85,35,65,65
-196,espeon,2,0.9,26.5,184,psychic,,65,65,60,110,130,95
-197,umbreon,2,1.0,27.0,184,dark,,95,65,110,65,60,130
-198,murkrow,2,0.5,2.1,81,dark,flying,60,85,42,91,85,42
-199,slowking,2,2.0,79.5,172,water,psychic,95,75,80,30,100,110
-200,misdreavus,2,0.7,1.0,87,ghost,,60,60,60,85,85,85
-201,unown,2,0.5,5.0,118,psychic,,48,72,48,48,72,48
-202,wobbuffet,2,1.3,28.5,142,psychic,,190,33,58,33,33,58
-203,girafarig,2,1.5,41.5,159,normal,psychic,70,80,65,85,90,65
-204,pineco,2,0.6,7.2,58,bug,,50,65,90,15,35,35
-205,forretress,2,1.2,125.8,163,bug,steel,75,90,140,40,60,60
-206,dunsparce,2,1.5,14.0,145,normal,,100,70,70,45,65,65
-207,gligar,2,1.1,64.8,86,ground,flying,65,75,105,85,35,65
-208,steelix,2,9.2,400.0,179,steel,ground,75,85,200,30,55,65
-209,snubbull,2,0.6,7.8,60,fairy,,60,80,50,30,40,40
-210,granbull,2,1.4,48.7,158,fairy,,90,120,75,45,60,60
-211,qwilfish,2,0.5,3.9,88,water,poison,65,95,85,85,55,55
-212,scizor,2,1.8,118.0,175,bug,steel,70,130,100,65,55,80
-213,shuckle,2,0.6,20.5,177,bug,rock,20,10,230,5,10,230
-214,heracross,2,1.5,54.0,175,bug,fighting,80,125,75,85,40,95
-215,sneasel,2,0.9,28.0,86,dark,ice,55,95,55,115,35,75
-216,teddiursa,2,0.6,8.8,66,normal,,60,80,50,40,50,50
-217,ursaring,2,1.8,125.8,175,normal,,90,130,75,55,75,75
-218,slugma,2,0.7,35.0,50,fire,,40,40,40,20,70,40
-219,magcargo,2,0.8,55.0,151,fire,rock,60,50,120,30,90,80
-220,swinub,2,0.4,6.5,50,ice,ground,50,50,40,50,30,30
-221,piloswine,2,1.1,55.8,158,ice,ground,100,100,80,50,60,60
-222,corsola,2,0.6,5.0,144,water,rock,65,55,95,35,65,95
-223,remoraid,2,0.6,12.0,60,water,,35,65,35,65,65,35
-224,octillery,2,0.9,28.5,168,water,,75,105,75,45,105,75
-225,delibird,2,0.9,16.0,116,ice,flying,45,55,45,75,65,45
-226,mantine,2,2.1,220.0,170,water,flying,85,40,70,70,80,140
-227,skarmory,2,1.7,50.5,163,steel,flying,65,80,140,70,40,70
-228,houndour,2,0.6,10.8,66,dark,fire,45,60,30,65,80,50
-229,houndoom,2,1.4,35.0,175,dark,fire,75,90,50,95,110,80
-230,kingdra,2,1.8,152.0,243,water,dragon,75,95,95,85,95,95
-231,phanpy,2,0.5,33.5,66,ground,,90,60,60,40,40,40
-232,donphan,2,1.1,120.0,175,ground,,90,120,120,50,60,60
-233,porygon2,2,0.6,32.5,180,normal,,85,80,90,60,105,95
-234,stantler,2,1.4,71.2,163,normal,,73,95,62,85,85,65
-235,smeargle,2,1.2,58.0,88,normal,,55,20,35,75,20,45
-236,tyrogue,2,0.7,21.0,42,fighting,,35,35,35,35,35,35
-237,hitmontop,2,1.4,48.0,159,fighting,,50,95,95,70,35,110
-238,smoochum,2,0.4,6.0,61,ice,psychic,45,30,15,65,85,65
-239,elekid,2,0.6,23.5,72,electric,,45,63,37,95,65,55
-240,magby,2,0.7,21.4,73,fire,,45,75,37,83,70,55
-241,miltank,2,1.2,75.5,172,normal,,95,80,105,100,40,70
-242,blissey,2,1.5,46.8,608,normal,,255,10,10,55,75,135
-243,raikou,2,1.9,178.0,261,electric,,90,85,75,115,115,100
-244,entei,2,2.1,198.0,261,fire,,115,115,85,100,90,75
-245,suicune,2,2.0,187.0,261,water,,100,75,115,85,90,115
-246,larvitar,2,0.6,72.0,60,rock,ground,50,64,50,41,45,50
-247,pupitar,2,1.2,152.0,144,rock,ground,70,84,70,51,65,70
-248,tyranitar,2,2.0,202.0,270,rock,dark,100,134,110,61,95,100
-249,lugia,2,5.2,216.0,306,psychic,flying,106,90,130,110,90,154
-250,ho-oh,2,3.8,199.0,306,fire,flying,106,130,90,90,110,154
-251,celebi,2,0.6,5.0,270,psychic,grass,100,100,100,100,100,100
-252,treecko,3,0.5,5.0,62,grass,,40,45,35,70,65,55
-253,grovyle,3,0.9,21.6,142,grass,,50,65,45,95,85,65
-254,sceptile,3,1.7,52.2,239,grass,,70,85,65,120,105,85
-255,torchic,3,0.4,2.5,62,fire,,45,60,40,45,70,50
-256,combusken,3,0.9,19.5,142,fire,fighting,60,85,60,55,85,60
-257,blaziken,3,1.9,52.0,239,fire,fighting,80,120,70,80,110,70
-258,mudkip,3,0.4,7.6,62,water,,50,70,50,40,50,50
-259,marshtomp,3,0.7,28.0,142,water,ground,70,85,70,50,60,70
-260,swampert,3,1.5,81.9,241,water,ground,100,110,90,60,85,90
-261,poochyena,3,0.5,13.6,56,dark,,35,55,35,35,30,30
-262,mightyena,3,1.0,37.0,147,dark,,70,90,70,70,60,60
-263,zigzagoon,3,0.4,17.5,56,normal,,38,30,41,60,30,41
-264,linoone,3,0.5,32.5,147,normal,,78,70,61,100,50,61
-265,wurmple,3,0.3,3.6,56,bug,,45,45,35,20,20,30
-266,silcoon,3,0.6,10.0,72,bug,,50,35,55,15,25,25
-267,beautifly,3,1.0,28.4,178,bug,flying,60,70,50,65,100,50
-268,cascoon,3,0.7,11.5,72,bug,,50,35,55,15,25,25
-269,dustox,3,1.2,31.6,173,bug,poison,60,50,70,65,50,90
-270,lotad,3,0.5,2.6,44,water,grass,40,30,30,30,40,50
-271,lombre,3,1.2,32.5,119,water,grass,60,50,50,50,60,70
-272,ludicolo,3,1.5,55.0,216,water,grass,80,70,70,70,90,100
-273,seedot,3,0.5,4.0,44,grass,,40,40,50,30,30,30
-274,nuzleaf,3,1.0,28.0,119,grass,dark,70,70,40,60,60,40
-275,shiftry,3,1.3,59.6,216,grass,dark,90,100,60,80,90,60
-276,taillow,3,0.3,2.3,54,normal,flying,40,55,30,85,30,30
-277,swellow,3,0.7,19.8,159,normal,flying,60,85,60,125,75,50
-278,wingull,3,0.6,9.5,54,water,flying,40,30,30,85,55,30
-279,pelipper,3,1.2,28.0,154,water,flying,60,50,100,65,95,70
-280,ralts,3,0.4,6.6,40,psychic,fairy,28,25,25,40,45,35
-281,kirlia,3,0.8,20.2,97,psychic,fairy,38,35,35,50,65,55
-282,gardevoir,3,1.6,48.4,233,psychic,fairy,68,65,65,80,125,115
-283,surskit,3,0.5,1.7,54,bug,water,40,30,32,65,50,52
-284,masquerain,3,0.8,3.6,159,bug,flying,70,60,62,80,100,82
-285,shroomish,3,0.4,4.5,59,grass,,60,40,60,35,40,60
-286,breloom,3,1.2,39.2,161,grass,fighting,60,130,80,70,60,60
-287,slakoth,3,0.8,24.0,56,normal,,60,60,60,30,35,35
-288,vigoroth,3,1.4,46.5,154,normal,,80,80,80,90,55,55
-289,slaking,3,2.0,130.5,252,normal,,150,160,100,100,95,65
-290,nincada,3,0.5,5.5,53,bug,ground,31,45,90,40,30,30
-291,ninjask,3,0.8,12.0,160,bug,flying,61,90,45,160,50,50
-292,shedinja,3,0.8,1.2,83,bug,ghost,1,90,45,40,30,30
-293,whismur,3,0.6,16.3,48,normal,,64,51,23,28,51,23
-294,loudred,3,1.0,40.5,126,normal,,84,71,43,48,71,43
-295,exploud,3,1.5,84.0,221,normal,,104,91,63,68,91,73
-296,makuhita,3,1.0,86.4,47,fighting,,72,60,30,25,20,30
-297,hariyama,3,2.3,253.8,166,fighting,,144,120,60,50,40,60
-298,azurill,3,0.2,2.0,38,normal,fairy,50,20,40,20,20,40
-299,nosepass,3,1.0,97.0,75,rock,,30,45,135,30,45,90
-300,skitty,3,0.6,11.0,52,normal,,50,45,45,50,35,35
-301,delcatty,3,1.1,32.6,140,normal,,70,65,65,90,55,55
-302,sableye,3,0.5,11.0,133,dark,ghost,50,75,75,50,65,65
-303,mawile,3,0.6,11.5,133,steel,fairy,50,85,85,50,55,55
-304,aron,3,0.4,60.0,66,steel,rock,50,70,100,30,40,40
-305,lairon,3,0.9,120.0,151,steel,rock,60,90,140,40,50,50
-306,aggron,3,2.1,360.0,239,steel,rock,70,110,180,50,60,60
-307,meditite,3,0.6,11.2,56,fighting,psychic,30,40,55,60,40,55
-308,medicham,3,1.3,31.5,144,fighting,psychic,60,60,75,80,60,75
-309,electrike,3,0.6,15.2,59,electric,,40,45,40,65,65,40
-310,manectric,3,1.5,40.2,166,electric,,70,75,60,105,105,60
-311,plusle,3,0.4,4.2,142,electric,,60,50,40,95,85,75
-312,minun,3,0.4,4.2,142,electric,,60,40,50,95,75,85
-313,volbeat,3,0.7,17.7,151,bug,,65,73,75,85,47,85
-314,illumise,3,0.6,17.7,151,bug,,65,47,75,85,73,85
-315,roselia,3,0.3,2.0,140,grass,poison,50,60,45,65,100,80
-316,gulpin,3,0.4,10.3,60,poison,,70,43,53,40,43,53
-317,swalot,3,1.7,80.0,163,poison,,100,73,83,55,73,83
-318,carvanha,3,0.8,20.8,61,water,dark,45,90,20,65,65,20
-319,sharpedo,3,1.8,88.8,161,water,dark,70,120,40,95,95,40
-320,wailmer,3,2.0,130.0,80,water,,130,70,35,60,70,35
-321,wailord,3,14.5,398.0,175,water,,170,90,45,60,90,45
-322,numel,3,0.7,24.0,61,fire,ground,60,60,40,35,65,45
-323,camerupt,3,1.9,220.0,161,fire,ground,70,100,70,40,105,75
-324,torkoal,3,0.5,80.4,165,fire,,70,85,140,20,85,70
-325,spoink,3,0.7,30.6,66,psychic,,60,25,35,60,70,80
-326,grumpig,3,0.9,71.5,165,psychic,,80,45,65,80,90,110
-327,spinda,3,1.1,5.0,126,normal,,60,60,60,60,60,60
-328,trapinch,3,0.7,15.0,58,ground,,45,100,45,10,45,45
-329,vibrava,3,1.1,15.3,119,ground,dragon,50,70,50,70,50,50
-330,flygon,3,2.0,82.0,234,ground,dragon,80,100,80,100,80,80
-331,cacnea,3,0.4,51.3,67,grass,,50,85,40,35,85,40
-332,cacturne,3,1.3,77.4,166,grass,dark,70,115,60,55,115,60
-333,swablu,3,0.4,1.2,62,normal,flying,45,40,60,50,40,75
-334,altaria,3,1.1,20.6,172,dragon,flying,75,70,90,80,70,105
-335,zangoose,3,1.3,40.3,160,normal,,73,115,60,90,60,60
-336,seviper,3,2.7,52.5,160,poison,,73,100,60,65,100,60
-337,lunatone,3,1.0,168.0,161,rock,psychic,90,55,65,70,95,85
-338,solrock,3,1.2,154.0,161,rock,psychic,90,95,85,70,55,65
-339,barboach,3,0.4,1.9,58,water,ground,50,48,43,60,46,41
-340,whiscash,3,0.9,23.6,164,water,ground,110,78,73,60,76,71
-341,corphish,3,0.6,11.5,62,water,,43,80,65,35,50,35
-342,crawdaunt,3,1.1,32.8,164,water,dark,63,120,85,55,90,55
-343,baltoy,3,0.5,21.5,60,ground,psychic,40,40,55,55,40,70
-344,claydol,3,1.5,108.0,175,ground,psychic,60,70,105,75,70,120
-345,lileep,3,1.0,23.8,71,rock,grass,66,41,77,23,61,87
-346,cradily,3,1.5,60.4,173,rock,grass,86,81,97,43,81,107
-347,anorith,3,0.7,12.5,71,rock,bug,45,95,50,75,40,50
-348,armaldo,3,1.5,68.2,173,rock,bug,75,125,100,45,70,80
-349,feebas,3,0.6,7.4,40,water,,20,15,20,80,10,55
-350,milotic,3,6.2,162.0,189,water,,95,60,79,81,100,125
-351,castform,3,0.3,0.8,147,normal,,70,70,70,70,70,70
-352,kecleon,3,1.0,22.0,154,normal,,60,90,70,40,60,120
-353,shuppet,3,0.6,2.3,59,ghost,,44,75,35,45,63,33
-354,banette,3,1.1,12.5,159,ghost,,64,115,65,65,83,63
-355,duskull,3,0.8,15.0,59,ghost,,20,40,90,25,30,90
-356,dusclops,3,1.6,30.6,159,ghost,,40,70,130,25,60,130
-357,tropius,3,2.0,100.0,161,grass,flying,99,68,83,51,72,87
-358,chimecho,3,0.6,1.0,159,psychic,,75,50,80,65,95,90
-359,absol,3,1.2,47.0,163,dark,,65,130,60,75,75,60
-360,wynaut,3,0.6,14.0,52,psychic,,95,23,48,23,23,48
-361,snorunt,3,0.7,16.8,60,ice,,50,50,50,50,50,50
-362,glalie,3,1.5,256.5,168,ice,,80,80,80,80,80,80
-363,spheal,3,0.8,39.5,58,ice,water,70,40,50,25,55,50
-364,sealeo,3,1.1,87.6,144,ice,water,90,60,70,45,75,70
-365,walrein,3,1.4,150.6,239,ice,water,110,80,90,65,95,90
-366,clamperl,3,0.4,52.5,69,water,,35,64,85,32,74,55
-367,huntail,3,1.7,27.0,170,water,,55,104,105,52,94,75
-368,gorebyss,3,1.8,22.6,170,water,,55,84,105,52,114,75
-369,relicanth,3,1.0,23.4,170,water,rock,100,90,130,55,45,65
-370,luvdisc,3,0.6,8.7,116,water,,43,30,55,97,40,65
-371,bagon,3,0.6,42.1,60,dragon,,45,75,60,50,40,30
-372,shelgon,3,1.1,110.5,147,dragon,,65,95,100,50,60,50
-373,salamence,3,1.5,102.6,270,dragon,flying,95,135,80,100,110,80
-374,beldum,3,0.6,95.2,60,steel,psychic,40,55,80,30,35,60
-375,metang,3,1.2,202.5,147,steel,psychic,60,75,100,50,55,80
-376,metagross,3,1.6,550.0,270,steel,psychic,80,135,130,70,95,90
-377,regirock,3,1.7,230.0,261,rock,,80,100,200,50,50,100
-378,regice,3,1.8,175.0,261,ice,,80,50,100,50,100,200
-379,registeel,3,1.9,205.0,261,steel,,80,75,150,50,75,150
-380,latias,3,1.4,40.0,270,dragon,psychic,80,80,90,110,110,130
-381,latios,3,2.0,60.0,270,dragon,psychic,80,90,80,110,130,110
-382,kyogre,3,4.5,352.0,302,water,,100,100,90,90,150,140
-383,groudon,3,3.5,950.0,302,ground,,100,150,140,90,100,90
-384,rayquaza,3,7.0,206.5,306,dragon,flying,105,150,90,95,150,90
-385,jirachi,3,0.3,1.1,270,steel,psychic,100,100,100,100,100,100
-386,deoxys,3,1.7,60.8,270,psychic,,50,150,50,150,150,50
-387,turtwig,4,0.4,10.2,64,grass,,55,68,64,31,45,55
-388,grotle,4,1.1,97.0,142,grass,,75,89,85,36,55,65
-389,torterra,4,2.2,310.0,236,grass,ground,95,109,105,56,75,85
-390,chimchar,4,0.5,6.2,62,fire,,44,58,44,61,58,44
-391,monferno,4,0.9,22.0,142,fire,fighting,64,78,52,81,78,52
-392,infernape,4,1.2,55.0,240,fire,fighting,76,104,71,108,104,71
-393,piplup,4,0.4,5.2,63,water,,53,51,53,40,61,56
-394,prinplup,4,0.8,23.0,142,water,,64,66,68,50,81,76
-395,empoleon,4,1.7,84.5,239,water,steel,84,86,88,60,111,101
-396,starly,4,0.3,2.0,49,normal,flying,40,55,30,60,30,30
-397,staravia,4,0.6,15.5,119,normal,flying,55,75,50,80,40,40
-398,staraptor,4,1.2,24.9,218,normal,flying,85,120,70,100,50,60
-399,bidoof,4,0.5,20.0,50,normal,,59,45,40,31,35,40
-400,bibarel,4,1.0,31.5,144,normal,water,79,85,60,71,55,60
-401,kricketot,4,0.3,2.2,39,bug,,37,25,41,25,25,41
-402,kricketune,4,1.0,25.5,134,bug,,77,85,51,65,55,51
-403,shinx,4,0.5,9.5,53,electric,,45,65,34,45,40,34
-404,luxio,4,0.9,30.5,127,electric,,60,85,49,60,60,49
-405,luxray,4,1.4,42.0,235,electric,,80,120,79,70,95,79
-406,budew,4,0.2,1.2,56,grass,poison,40,30,35,55,50,70
-407,roserade,4,0.9,14.5,232,grass,poison,60,70,65,90,125,105
-408,cranidos,4,0.9,31.5,70,rock,,67,125,40,58,30,30
-409,rampardos,4,1.6,102.5,173,rock,,97,165,60,58,65,50
-410,shieldon,4,0.5,57.0,70,rock,steel,30,42,118,30,42,88
-411,bastiodon,4,1.3,149.5,173,rock,steel,60,52,168,30,47,138
-412,burmy,4,0.2,3.4,45,bug,,40,29,45,36,29,45
-413,wormadam,4,0.5,6.5,148,bug,grass,60,59,85,36,79,105
-414,mothim,4,0.9,23.3,148,bug,flying,70,94,50,66,94,50
-415,combee,4,0.3,5.5,49,bug,flying,30,30,42,70,30,42
-416,vespiquen,4,1.2,38.5,166,bug,flying,70,80,102,40,80,102
-417,pachirisu,4,0.4,3.9,142,electric,,60,45,70,95,45,90
-418,buizel,4,0.7,29.5,66,water,,55,65,35,85,60,30
-419,floatzel,4,1.1,33.5,173,water,,85,105,55,115,85,50
-420,cherubi,4,0.4,3.3,55,grass,,45,35,45,35,62,53
-421,cherrim,4,0.5,9.3,158,grass,,70,60,70,85,87,78
-422,shellos,4,0.3,6.3,65,water,,76,48,48,34,57,62
-423,gastrodon,4,0.9,29.9,166,water,ground,111,83,68,39,92,82
-424,ambipom,4,1.2,20.3,169,normal,,75,100,66,115,60,66
-425,drifloon,4,0.4,1.2,70,ghost,flying,90,50,34,70,60,44
-426,drifblim,4,1.2,15.0,174,ghost,flying,150,80,44,80,90,54
-427,buneary,4,0.4,5.5,70,normal,,55,66,44,85,44,56
-428,lopunny,4,1.2,33.3,168,normal,,65,76,84,105,54,96
-429,mismagius,4,0.9,4.4,173,ghost,,60,60,60,105,105,105
-430,honchkrow,4,0.9,27.3,177,dark,flying,100,125,52,71,105,52
-431,glameow,4,0.5,3.9,62,normal,,49,55,42,85,42,37
-432,purugly,4,1.0,43.8,158,normal,,71,82,64,112,64,59
-433,chingling,4,0.2,0.6,57,psychic,,45,30,50,45,65,50
-434,stunky,4,0.4,19.2,66,poison,dark,63,63,47,74,41,41
-435,skuntank,4,1.0,38.0,168,poison,dark,103,93,67,84,71,61
-436,bronzor,4,0.5,60.5,60,steel,psychic,57,24,86,23,24,86
-437,bronzong,4,1.3,187.0,175,steel,psychic,67,89,116,33,79,116
-438,bonsly,4,0.5,15.0,58,rock,,50,80,95,10,10,45
-439,mime jr,4,0.6,13.0,62,psychic,fairy,20,25,45,60,70,90
-440,happiny,4,0.6,24.4,110,normal,,100,5,5,30,15,65
-441,chatot,4,0.5,1.9,144,normal,flying,76,65,45,91,92,42
-442,spiritomb,4,1.0,108.0,170,ghost,dark,50,92,108,35,92,108
-443,gible,4,0.7,20.5,60,dragon,ground,58,70,45,42,40,45
-444,gabite,4,1.4,56.0,144,dragon,ground,68,90,65,82,50,55
-445,garchomp,4,1.9,95.0,270,dragon,ground,108,130,95,102,80,85
-446,munchlax,4,0.6,105.0,78,normal,,135,85,40,5,40,85
-447,riolu,4,0.7,20.2,57,fighting,,40,70,40,60,35,40
-448,lucario,4,1.2,54.0,184,fighting,steel,70,110,70,90,115,70
-449,hippopotas,4,0.8,49.5,66,ground,,68,72,78,32,38,42
-450,hippowdon,4,2.0,300.0,184,ground,,108,112,118,47,68,72
-451,skorupi,4,0.8,12.0,66,poison,bug,40,50,90,65,30,55
-452,drapion,4,1.3,61.5,175,poison,dark,70,90,110,95,60,75
-453,croagunk,4,0.7,23.0,60,poison,fighting,48,61,40,50,61,40
-454,toxicroak,4,1.3,44.4,172,poison,fighting,83,106,65,85,86,65
-455,carnivine,4,1.4,27.0,159,grass,,74,100,72,46,90,72
-456,finneon,4,0.4,7.0,66,water,,49,49,56,66,49,61
-457,lumineon,4,1.2,24.0,161,water,,69,69,76,91,69,86
-458,mantyke,4,1.0,65.0,69,water,flying,45,20,50,50,60,120
-459,snover,4,1.0,50.5,67,grass,ice,60,62,50,40,62,60
-460,abomasnow,4,2.2,135.5,173,grass,ice,90,92,75,60,92,85
-461,weavile,4,1.1,34.0,179,dark,ice,70,120,65,125,45,85
-462,magnezone,4,1.2,180.0,241,electric,steel,70,70,115,60,130,90
-463,lickilicky,4,1.7,140.0,180,normal,,110,85,95,50,80,95
-464,rhyperior,4,2.4,282.8,241,ground,rock,115,140,130,40,55,55
-465,tangrowth,4,2.0,128.6,187,grass,,100,100,125,50,110,50
-466,electivire,4,1.8,138.6,243,electric,,75,123,67,95,95,85
-467,magmortar,4,1.6,68.0,243,fire,,75,95,67,83,125,95
-468,togekiss,4,1.5,38.0,245,fairy,flying,85,50,95,80,120,115
-469,yanmega,4,1.9,51.5,180,bug,flying,86,76,86,95,116,56
-470,leafeon,4,1.0,25.5,184,grass,,65,110,130,95,60,65
-471,glaceon,4,0.8,25.9,184,ice,,65,60,110,65,130,95
-472,gliscor,4,2.0,42.5,179,ground,flying,75,95,125,95,45,75
-473,mamoswine,4,2.5,291.0,239,ice,ground,110,130,80,80,70,60
-474,porygon z,4,0.9,34.0,241,normal,,85,80,70,90,135,75
-475,gallade,4,1.6,52.0,233,psychic,fighting,68,125,65,80,65,115
-476,probopass,4,1.4,340.0,184,rock,steel,60,55,145,40,75,150
-477,dusknoir,4,2.2,106.6,236,ghost,,45,100,135,45,65,135
-478,froslass,4,1.3,26.6,168,ice,ghost,70,80,70,110,80,70
-479,rotom,4,0.3,0.3,154,electric,ghost,50,50,77,91,95,77
-480,uxie,4,0.3,0.3,261,psychic,,75,75,130,95,75,130
-481,mesprit,4,0.3,0.3,261,psychic,,80,105,105,80,105,105
-482,azelf,4,0.3,0.3,261,psychic,,75,125,70,115,125,70
-483,dialga,4,5.4,683.0,306,steel,dragon,100,120,120,90,150,100
-484,palkia,4,4.2,336.0,306,water,dragon,90,120,100,100,150,120
-485,heatran,4,1.7,430.0,270,fire,steel,91,90,106,77,130,106
-486,regigigas,4,3.7,420.0,302,normal,,110,160,110,100,80,110
-487,giratina,4,4.5,750.0,306,ghost,dragon,150,100,120,90,100,120
-488,cresselia,4,1.5,85.6,270,psychic,,120,70,120,85,75,130
-489,phione,4,0.4,3.1,216,water,,80,80,80,80,80,80
-490,manaphy,4,0.3,1.4,270,water,,100,100,100,100,100,100
-491,darkrai,4,1.5,50.5,270,dark,,70,90,90,125,135,90
-492,shaymin,4,0.2,2.1,270,grass,,100,100,100,100,100,100
-493,arceus,4,3.2,320.0,324,normal,,120,120,120,120,120,120
-494,victini,5,0.4,4.0,270,psychic,fire,100,100,100,100,100,100
-495,snivy,5,0.6,8.1,62,grass,,45,45,55,63,45,55
-496,servine,5,0.8,16.0,145,grass,,60,60,75,83,60,75
-497,serperior,5,3.3,63.0,238,grass,,75,75,95,113,75,95
-498,tepig,5,0.5,9.9,62,fire,,65,63,45,45,45,45
-499,pignite,5,1.0,55.5,146,fire,fighting,90,93,55,55,70,55
-500,emboar,5,1.6,150.0,238,fire,fighting,110,123,65,65,100,65
-501,oshawott,5,0.5,5.9,62,water,,55,55,45,45,63,45
-502,dewott,5,0.8,24.5,145,water,,75,75,60,60,83,60
-503,samurott,5,1.5,94.6,238,water,,95,100,85,70,108,70
-504,patrat,5,0.5,11.6,51,normal,,45,55,39,42,35,39
-505,watchog,5,1.1,27.0,147,normal,,60,85,69,77,60,69
-506,lillipup,5,0.4,4.1,55,normal,,45,60,45,55,25,45
-507,herdier,5,0.9,14.7,130,normal,,65,80,65,60,35,65
-508,stoutland,5,1.2,61.0,225,normal,,85,110,90,80,45,90
-509,purrloin,5,0.4,10.1,56,dark,,41,50,37,66,50,37
-510,liepard,5,1.1,37.5,156,dark,,64,88,50,106,88,50
-511,pansage,5,0.6,10.5,63,grass,,50,53,48,64,53,48
-512,simisage,5,1.1,30.5,174,grass,,75,98,63,101,98,63
-513,pansear,5,0.6,11.0,63,fire,,50,53,48,64,53,48
-514,simisear,5,1.0,28.0,174,fire,,75,98,63,101,98,63
-515,panpour,5,0.6,13.5,63,water,,50,53,48,64,53,48
-516,simipour,5,1.0,29.0,174,water,,75,98,63,101,98,63
-517,munna,5,0.6,23.3,58,psychic,,76,25,45,24,67,55
-518,musharna,5,1.1,60.5,170,psychic,,116,55,85,29,107,95
-519,pidove,5,0.3,2.1,53,normal,flying,50,55,50,43,36,30
-520,tranquill,5,0.6,15.0,125,normal,flying,62,77,62,65,50,42
-521,unfezant,5,1.2,29.0,220,normal,flying,80,115,80,93,65,55
-522,blitzle,5,0.8,29.8,59,electric,,45,60,32,76,50,32
-523,zebstrika,5,1.6,79.5,174,electric,,75,100,63,116,80,63
-524,roggenrola,5,0.4,18.0,56,rock,,55,75,85,15,25,25
-525,boldore,5,0.9,102.0,137,rock,,70,105,105,20,50,40
-526,gigalith,5,1.7,260.0,232,rock,,85,135,130,25,60,80
-527,woobat,5,0.4,2.1,65,psychic,flying,65,45,43,72,55,43
-528,swoobat,5,0.9,10.5,149,psychic,flying,67,57,55,114,77,55
-529,drilbur,5,0.3,8.5,66,ground,,60,85,40,68,30,45
-530,excadrill,5,0.7,40.4,178,ground,steel,110,135,60,88,50,65
-531,audino,5,1.1,31.0,390,normal,,103,60,86,50,60,86
-532,timburr,5,0.6,12.5,61,fighting,,75,80,55,35,25,35
-533,gurdurr,5,1.2,40.0,142,fighting,,85,105,85,40,40,50
-534,conkeldurr,5,1.4,87.0,227,fighting,,105,140,95,45,55,65
-535,tympole,5,0.5,4.5,59,water,,50,50,40,64,50,40
-536,palpitoad,5,0.8,17.0,134,water,ground,75,65,55,69,65,55
-537,seismitoad,5,1.5,62.0,229,water,ground,105,95,75,74,85,75
-538,throh,5,1.3,55.5,163,fighting,,120,100,85,45,30,85
-539,sawk,5,1.4,51.0,163,fighting,,75,125,75,85,30,75
-540,sewaddle,5,0.3,2.5,62,bug,grass,45,53,70,42,40,60
-541,swadloon,5,0.5,7.3,133,bug,grass,55,63,90,42,50,80
-542,leavanny,5,1.2,20.5,225,bug,grass,75,103,80,92,70,80
-543,venipede,5,0.4,5.3,52,bug,poison,30,45,59,57,30,39
-544,whirlipede,5,1.2,58.5,126,bug,poison,40,55,99,47,40,79
-545,scolipede,5,2.5,200.5,218,bug,poison,60,100,89,112,55,69
-546,cottonee,5,0.3,0.6,56,grass,fairy,40,27,60,66,37,50
-547,whimsicott,5,0.7,6.6,168,grass,fairy,60,67,85,116,77,75
-548,petilil,5,0.5,6.6,56,grass,,45,35,50,30,70,50
-549,lilligant,5,1.1,16.3,168,grass,,70,60,75,90,110,75
-550,basculin,5,1.0,18.0,161,water,,70,92,65,98,80,55
-551,sandile,5,0.7,15.2,58,ground,dark,50,72,35,65,35,35
+1,bulbasaur,1,0.7,6.9,64,grass,poison,45,49,49,45,65,65,"Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger."
+2,ivysaur,1,1.0,13.0,142,grass,poison,60,62,63,60,80,80,"There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon."
+3,venusaur,1,2.0,100.0,236,grass,poison,80,82,83,80,100,100,"There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people."
+4,charmander,1,0.6,8.5,62,fire,,39,52,43,65,60,50,"The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely."
+5,charmeleon,1,1.1,19.0,142,fire,,58,64,58,80,80,65,"Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color."
+6,charizard,1,1.7,90.5,240,fire,flying,78,84,78,100,109,85,"Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself."
+7,squirtle,1,0.5,9.0,63,water,,44,48,65,43,50,64,"Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds."
+8,wartortle,1,1.0,22.5,142,water,,59,63,80,58,65,80,"Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler."
+9,blastoise,1,1.6,85.5,239,water,,79,83,100,78,85,105,"Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet."
+10,caterpie,1,0.3,2.9,39,bug,,45,30,35,45,20,20,"Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor."
+11,metapod,1,0.7,9.9,72,bug,,50,20,55,30,25,25,"The shell covering this Pokémon's body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell."
+12,butterfree,1,1.1,32.0,178,bug,flying,60,45,50,70,90,80,"Butterfree has a superior ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest."
+13,weedle,1,0.3,3.2,39,bug,poison,40,35,30,50,20,20,"Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose)."
+14,kakuna,1,0.6,10.0,72,bug,poison,45,25,50,35,25,25,"Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch."
+15,beedrill,1,1.0,29.5,178,bug,poison,65,90,40,75,45,80,"Beedrill is extremely territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm."
+16,pidgey,1,0.3,1.8,50,normal,flying,40,45,40,56,35,35,"Pidgey has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings."
+17,pidgeotto,1,1.1,30.0,122,normal,flying,63,60,55,71,50,50,"Pidgeotto claims a large area as its own territory. This Pokémon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws."
+18,pidgeot,1,1.5,39.5,216,normal,flying,83,80,75,101,70,70,"This Pokémon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon."
+19,rattata,1,0.3,3.5,51,normal,,30,56,35,72,25,35,"Rattata is cautious in the extreme. Even while it is asleep, it constantly listens by moving its ears around. It is not picky about where it lives—it will make its nest anywhere."
+20,raticate,1,0.7,18.5,145,normal,,55,81,60,97,50,70,"Raticate's sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses."
+21,spearow,1,0.3,2.0,52,normal,flying,40,60,30,70,31,31,"Spearow has a very loud cry that can be heard over half a mile away. If its high, keening cry is heard echoing all around, it is a sign that they are warning each other of danger."
+22,fearow,1,1.2,38.0,155,normal,flying,65,90,65,100,61,61,"Fearow is recognized by its long neck and elongated beak. They are conveniently shaped for catching prey in soil or water. It deftly moves its long and skinny beak to pluck prey."
+23,ekans,1,2.0,6.9,58,poison,,35,60,44,55,40,54,"Ekans curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head."
+24,arbok,1,3.5,65.0,157,poison,,60,95,69,80,65,79,"This Pokémon is terrifically strong in order to constrict things with its body. It can even flatten steel oil drums. Once Arbok wraps its body around its foe, escaping its crunching embrace is impossible."
+25,pikachu,1,0.4,6.0,112,electric,,35,55,40,90,50,50,"Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge."
+26,raichu,1,0.8,30.0,218,electric,,60,90,55,110,90,80,"If the electrical sacs become excessively charged, Raichu plants its tail in the ground and discharges. Scorched patches of ground will be found near this Pokémon's nest."
+27,sandshrew,1,0.6,12.0,60,ground,,50,75,85,40,20,30,"Sandshrew's body is configured to absorb water without waste, enabling it to survive in an arid desert. This Pokémon curls up to protect itself from its enemies."
+28,sandslash,1,1.0,29.5,158,ground,,75,100,110,65,45,55,"Sandslash's body is covered by tough spikes, which are hardened sections of its hide. Once a year, the old spikes fall out, to be replaced with new spikes that grow out from beneath the old ones."
+29,nidoran♀,1,0.4,7.0,55,poison,,55,47,52,41,40,40,"Nidoran♀ has barbs that secrete a powerful poison. They are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn."
+30,nidorina,1,0.8,20.0,128,poison,,70,62,67,56,55,55,"When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. This Pokémon appears to become nervous if separated from the others."
+31,nidoqueen,1,1.3,60.0,227,poison,ground,90,92,87,76,75,85,"Nidoqueen's body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokémon is at its strongest when it is defending its young."
+32,nidoran♂,1,0.5,9.0,55,poison,,46,57,40,50,40,40,"Nidoran♂ has developed muscles for moving its ears. Thanks to them, the ears can be freely moved in any direction. Even the slightest sound does not escape this Pokémon's notice."
+33,nidorino,1,0.9,19.5,128,poison,,61,72,57,65,55,55,"Nidorino has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might."
+34,nidoking,1,1.4,62.0,227,poison,ground,81,102,77,85,85,75,"Nidoking's thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pokémon goes on a rampage, there is no stopping it."
+35,clefairy,1,0.6,7.5,113,fairy,,70,45,48,35,60,65,"On every night of a full moon, groups of this Pokémon come out to play. When dawn arrives, the tired Clefairy return to their quiet mountain retreats and go to sleep nestled up against each other."
+36,clefable,1,1.3,40.0,217,fairy,,95,70,73,60,95,90,"Clefable moves by skipping lightly as if it were flying using its wings. Its bouncy step lets it even walk on water. It is known to take strolls on lakes on quiet, moonlit nights."
+37,vulpix,1,0.6,9.9,60,fire,,38,41,40,65,50,65,"At the time of its birth, Vulpix has one white tail. The tail separates into six if this Pokémon receives plenty of love from its Trainer. The six tails become magnificently curled."
+38,ninetales,1,1.1,19.9,177,fire,,73,76,75,100,81,100,"Ninetales casts a sinister light from its bright red eyes to gain total control over its foe's mind. This Pokémon is said to live for a thousand years."
+39,jigglypuff,1,0.5,5.5,95,normal,fairy,115,45,20,20,45,25,"Jigglypuff's vocal cords can freely adjust the wavelength of its voice. This Pokémon uses this ability to sing at precisely the right wavelength to make its foes most drowsy."
+40,wigglytuff,1,1.0,12.0,196,normal,fairy,140,70,45,45,85,50,"Wigglytuff has large, saucerlike eyes. The surfaces of its eyes are always covered with a thin layer of tears. If any dust gets in this Pokémon's eyes, it is quickly washed away."
+41,zubat,1,0.8,7.5,49,poison,flying,40,45,35,55,30,40,"Zubat remains quietly unmoving in a dark spot during the bright daylight hours. It does so because prolonged exposure to the sun causes its body to become slightly burned."
+42,golbat,1,1.6,55.0,159,poison,flying,75,80,70,90,65,75,"Golbat loves to drink the blood of living things. It is particularly active in the pitch black of night. This Pokémon flits around in the night skies, seeking fresh blood."
+43,oddish,1,0.5,5.4,64,grass,poison,45,50,55,30,75,65,"During the daytime, Oddish buries itself in soil to absorb nutrients from the ground using its entire body. The more fertile the soil, the glossier its leaves become."
+44,gloom,1,0.8,8.6,138,grass,poison,60,65,70,40,85,75,"Gloom releases a foul fragrance from the pistil of its flower. When faced with danger, the stench worsens. If this Pokémon is feeling calm and secure, it does not release its usual stinky aroma."
+45,vileplume,1,1.2,18.6,221,grass,poison,75,80,85,50,110,90,"Vileplume's toxic pollen triggers atrocious allergy attacks. That's why it is advisable never to approach any attractive flowers in a jungle, however pretty they may be."
+46,paras,1,0.3,5.4,57,bug,grass,35,70,55,25,45,55,"Paras has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this Bug Pokémon host. They are highly valued as a medicine for extending life."
+47,parasect,1,1.0,29.5,142,bug,grass,60,95,80,30,60,80,"Parasect is known to infest large trees en masse and drain nutrients from the lower trunk and roots. When an infested tree dies, they move onto another tree all at once."
+48,venonat,1,1.0,30.0,61,bug,poison,60,55,50,45,40,55,"Venonat is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even minuscule prey."
+49,venomoth,1,1.5,12.5,158,bug,poison,70,65,60,90,90,75,"Venomoth is nocturnal—it is a Pokémon that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness."
+50,diglett,1,0.2,0.8,53,ground,,10,55,25,95,35,45,"Diglett are raised in most farms. The reason is simple— wherever this Pokémon burrows, the soil is left perfectly tilled for planting crops. This soil is made ideal for growing delicious vegetables."
+51,dugtrio,1,0.7,33.3,149,ground,,35,100,50,120,50,70,"Dugtrio are actually triplets that emerged from one body. As a result, each triplet thinks exactly like the other two triplets. They work cooperatively to burrow endlessly."
+52,meowth,1,0.4,4.2,58,normal,,40,45,35,90,40,40,"Meowth withdraws its sharp claws into its paws to slinkily sneak about without making any incriminating footsteps. For some reason, this Pokémon loves shiny coins that glitter with light."
+53,persian,1,1.0,32.0,154,normal,,65,70,60,115,65,65,"Persian has six bold whiskers that give it a look of toughness. The whiskers sense air movements to determine what is in the Pokémon's surrounding vicinity. It becomes docile if grabbed by the whiskers."
+54,psyduck,1,0.8,19.6,64,water,,50,52,48,55,65,50,"Psyduck uses a mysterious power. When it does so, this Pokémon generates brain waves that are supposedly only seen in sleepers. This discovery spurred controversy among scholars."
+55,golduck,1,1.7,76.6,175,water,,80,82,78,85,95,80,"The webbed flippers on its forelegs and hind legs and the streamlined body of Golduck give it frightening speed. This Pokémon is definitely much faster than even the most athletic swimmer."
+56,mankey,1,0.5,28.0,61,fighting,,40,80,35,70,35,45,"When Mankey starts shaking and its nasal breathing turns rough, it's a sure sign that it is becoming angry. However, because it goes into a towering rage almost instantly, it is impossible for anyone to flee its wrath."
+57,primeape,1,1.0,32.0,159,fighting,,65,105,60,95,60,70,"When Primeape becomes furious, its blood circulation is boosted. In turn, its muscles are made even stronger. However, it also becomes much less intelligent at the same time."
+58,growlithe,1,0.7,19.0,70,fire,,55,70,45,60,70,50,"Growlithe has a superb sense of smell. Once it smells anything, this Pokémon won't forget the scent, no matter what. It uses its advanced olfactory sense to determine the emotions of other living things."
+59,arcanine,1,1.9,155.0,194,fire,,90,110,80,95,100,80,"Arcanine is known for its high speed. It is said to be capable of running over 6,200 miles in a single day and night. The fire that blazes wildly within this Pokémon's body is its source of power."
+60,poliwag,1,0.6,12.4,60,water,,40,50,40,90,40,40,"Poliwag has a very thin skin. It is possible to see the Pokémon's spiral innards right through the skin. Despite its thinness, however, the skin is also very flexible. Even sharp fangs bounce right off it."
+61,poliwhirl,1,1.0,20.0,135,water,,65,65,65,90,50,50,"The surface of Poliwhirl's body is always wet and slick with a slimy fluid. Because of this slippery covering, it can easily slip and slide out of the clutches of any enemy in battle."
+62,poliwrath,1,1.3,54.0,230,water,fighting,90,95,95,70,70,90,"Poliwrath's highly developed, brawny muscles never grow fatigued, however much it exercises. It is so tirelessly strong, this Pokémon can swim back and forth across the ocean without effort."
+63,abra,1,0.9,19.5,62,psychic,,25,20,15,90,105,55,"Abra sleeps for eighteen hours a day. However, it can sense the presence of foes even while it is sleeping. In such a situation, this Pokémon immediately teleports to safety."
+64,kadabra,1,1.3,56.5,140,psychic,,40,35,30,105,120,70,"Kadabra emits a peculiar alpha wave if it develops a headache. Only those people with a particularly strong psyche can hope to become a Trainer of this Pokémon."
+65,alakazam,1,1.5,48.0,225,psychic,,55,50,45,120,135,95,"Alakazam's brain continually grows, making its head far too heavy to support with its neck. This Pokémon holds its head up using its psychokinetic power instead."
+66,machop,1,0.8,19.5,61,fighting,,70,80,50,35,35,35,"Machop's muscles are special—they never get sore no matter how much they are used in exercise. This Pokémon has sufficient power to hurl a hundred adult humans."
+67,machoke,1,1.5,70.5,142,fighting,,80,100,70,45,50,60,"Machoke's thoroughly toned muscles possess the hardness of steel. This Pokémon has so much strength, it can easily hold aloft a sumo wrestler on just one finger."
+68,machamp,1,1.6,130.0,227,fighting,,90,130,80,55,65,85,"Machamp has the power to hurl anything aside. However, trying to do any work requiring care and dexterity causes its arms to get tangled. This Pokémon tends to leap into action before it thinks."
+69,bellsprout,1,0.7,4.0,60,grass,poison,50,75,35,40,70,30,"Bellsprout's thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, this Pokémon spits a corrosive fluid that melts even iron."
+70,weepinbell,1,1.0,6.4,137,grass,poison,65,90,50,55,85,45,"Weepinbell has a large hook on its rear end. At night, the Pokémon hooks on to a tree branch and goes to sleep. If it moves around in its sleep, it may wake up to find itself on the ground."
+71,victreebel,1,1.7,15.5,221,grass,poison,80,105,65,70,100,70,"Victreebel has a long vine that extends from its head. This vine is waved and flicked about as if it were an animal to attract prey. When an unsuspecting prey draws near, this Pokémon swallows it whole."
+72,tentacool,1,0.9,45.5,67,water,poison,40,40,35,70,50,100,"Tentacool's body is largely composed of water. If it is removed from the sea, it dries up like parchment. If this Pokémon happens to become dehydrated, put it back into the sea."
+73,tentacruel,1,1.6,55.0,180,water,poison,80,70,65,100,80,120,"Tentacruel has large red orbs on its head. The orbs glow before lashing the vicinity with a harsh ultrasonic blast. This Pokémon's outburst creates rough waves around it."
+74,geodude,1,0.4,20.0,60,rock,ground,40,80,100,20,30,30,"The longer a Geodude lives, the more its edges are chipped and worn away, making it more rounded in appearance. However, this Pokémon's heart will remain hard, craggy, and rough always."
+75,graveler,1,1.0,105.0,137,rock,ground,55,95,115,35,45,45,"Graveler grows by feeding on rocks. Apparently, it prefers to eat rocks that are covered in moss. This Pokémon eats its way through a ton of rocks on a daily basis."
+76,golem,1,1.4,300.0,223,rock,ground,80,120,130,45,55,65,"Golem live up on mountains. If there is a large earthquake, these Pokémon will come rolling down off the mountains en masse to the foothills below."
+77,ponyta,1,1.0,30.0,82,fire,,50,85,55,90,65,65,"Ponyta is very weak at birth. It can barely stand up. This Pokémon becomes stronger by stumbling and falling to keep up with its parent."
+78,rapidash,1,1.7,95.0,175,fire,,65,100,70,105,80,80,"Rapidash usually can be seen casually cantering in the fields and plains. However, when this Pokémon turns serious, its fiery manes flare and blaze as it gallops its way up to 150 mph."
+79,slowpoke,1,1.2,36.0,63,water,psychic,90,65,65,15,40,40,"Slowpoke uses its tail to catch prey by dipping it in water at the side of a river. However, this Pokémon often forgets what it's doing and often spends entire days just loafing at water's edge."
+80,slowbro,1,1.6,78.5,172,water,psychic,95,75,110,30,100,80,"Slowbro's tail has a Shellder firmly attached with a bite. As a result, the tail can't be used for fishing anymore. This causes Slowbro to grudgingly swim and catch prey instead."
+81,magnemite,1,0.3,6.0,65,electric,steel,25,35,70,45,95,55,"Magnemite attaches itself to power lines to feed on electricity. If your house has a power outage, check your circuit breakers. You may find a large number of this Pokémon clinging to the breaker box."
+82,magneton,1,1.0,60.0,163,electric,steel,50,60,95,70,120,70,"Magneton emits a powerful magnetic force that is fatal to mechanical devices. As a result, large cities sound sirens to warn citizens of large-scale outbreaks of this Pokémon."
+83,farfetch'd,1,0.8,15.0,132,normal,flying,52,90,55,60,58,62,"Farfetch'd is always seen with a stalk from a plant of some sort. Apparently, there are good stalks and bad stalks. This Pokémon has been known to fight with others over stalks."
+84,doduo,1,1.4,39.2,62,normal,flying,35,85,45,75,35,35,"Doduo's two heads never sleep at the same time. Its two heads take turns sleeping, so one head can always keep watch for enemies while the other one sleeps."
+85,dodrio,1,1.8,85.2,165,normal,flying,60,110,70,110,60,60,"Watch out if Dodrio's three heads are looking in three separate directions. It's a sure sign that it is on its guard. Don't go near this Pokémon if it's being wary—it may decide to peck you."
+86,seel,1,1.1,90.0,65,water,,65,45,55,45,45,70,"Seel hunts for prey in the frigid sea underneath sheets of ice. When it needs to breathe, it punches a hole through the ice with the sharply protruding section of its head."
+87,dewgong,1,1.7,120.0,166,water,ice,90,70,80,70,70,95,"Dewgong loves to snooze on bitterly cold ice. The sight of this Pokémon sleeping on a glacier was mistakenly thought to be a mermaid by a mariner long ago."
+88,grimer,1,0.9,30.0,65,poison,,80,80,50,25,40,50,"Grimer's sludgy and rubbery body can be forced through any opening, however small it may be. This Pokémon enters sewer pipes to drink filthy wastewater."
+89,muk,1,1.2,30.0,175,poison,,105,105,75,50,65,100,"From Muk's body seeps a foul fluid that gives off a nose-bendingly horrible stench. Just one drop of this Pokémon's body fluid can turn a pool stagnant and rancid."
+90,shellder,1,0.3,4.0,61,water,,30,65,100,40,45,25,"At night, this Pokémon uses its broad tongue to burrow a hole in the seafloor sand and then sleep in it. While it is sleeping, Shellder closes its shell, but leaves its tongue hanging out."
+91,cloyster,1,1.5,132.5,184,water,ice,50,95,180,70,85,45,"Cloyster is capable of swimming in the sea. It does so by swallowing water, then jetting it out toward the rear. This Pokémon shoots spikes from its shell using the same system."
+92,gastly,1,1.3,0.1,62,ghost,poison,30,35,30,80,100,35,"Gastly is largely composed of gaseous matter. When exposed to a strong wind, the gaseous body quickly dwindles away. Groups of this Pokémon cluster under the eaves of houses to escape the ravages of wind."
+93,haunter,1,1.6,0.1,142,ghost,poison,45,50,45,95,115,55,"Haunter is a dangerous Pokémon. If one beckons you while floating in darkness, you must never approach it. This Pokémon will try to lick you with its tongue and steal your life away."
+94,gengar,1,1.5,40.5,225,ghost,poison,60,65,60,110,130,75,"Sometimes, on a dark night, your shadow thrown by a streetlight will suddenly and startlingly overtake you. It is actually a Gengar running past you, pretending to be your shadow."
+95,onix,1,8.8,210.0,77,rock,ground,35,45,160,70,30,45,"Onix has a magnet in its brain. It acts as a compass so that this Pokémon does not lose direction while it is tunneling. As it grows older, its body becomes increasingly rounder and smoother."
+96,drowzee,1,1.0,32.4,66,psychic,,60,48,45,42,43,90,"If your nose becomes itchy while you are sleeping, it's a sure sign that one of these Pokémon is standing above your pillow and trying to eat your dream through your nostrils."
+97,hypno,1,1.6,75.6,169,psychic,,85,73,70,67,73,115,"Hypno holds a pendulum in its hand. The arcing movement and glitter of the pendulum lull the foe into a deep state of hypnosis. While this Pokémon searches for prey, it polishes the pendulum."
+98,krabby,1,0.4,6.5,65,water,,30,105,90,50,25,25,"Krabby live on beaches, burrowed inside holes dug into the sand. On sandy beaches with little in the way of food, these Pokémon can be seen squabbling with each other over territory."
+99,kingler,1,1.3,60.0,166,water,,55,130,115,75,50,50,"Kingler has an enormous, oversized claw. It waves this huge claw in the air to communicate with others. However, because the claw is so heavy, the Pokémon quickly tires."
+100,voltorb,1,0.5,10.4,66,electric,,40,30,50,100,55,55,"Voltorb was first sighted at a company that manufactures Poké Balls. The link between that sighting and the fact that this Pokémon looks very similar to a Poké Ball remains a mystery."
+101,electrode,1,1.2,66.6,172,electric,,60,50,70,150,80,80,"Electrode eats electricity in the atmosphere. On days when lightning strikes, you can see this Pokémon exploding all over the place from eating too much electricity."
+102,exeggcute,1,0.4,2.5,65,grass,psychic,60,40,80,40,60,45,"This Pokémon consists of six eggs that form a closely knit cluster. The six eggs attract each other and spin around. When cracks increasingly appear on the eggs, Exeggcute is close to evolution."
+103,exeggutor,1,2.0,120.0,186,grass,psychic,95,95,85,55,125,75,"Exeggutor originally came from the tropics. Its heads steadily grow larger from exposure to strong sunlight. It is said that when the heads fall off, they group together to form Exeggcute."
+104,cubone,1,0.4,6.5,64,ground,,50,50,95,35,40,50,"Cubone pines for the mother it will never see again. Seeing a likeness of its mother in the full moon, it cries. The stains on the skull the Pokémon wears are made by the tears it sheds."
+105,marowak,1,1.0,45.0,149,ground,,60,80,110,45,50,80,"Marowak is the evolved form of a Cubone that has overcome its sadness at the loss of its mother and grown tough. This Pokémon's tempered and hardened spirit is not easily broken."
+106,hitmonlee,1,1.5,49.8,159,fighting,,50,120,53,87,35,110,"Hitmonlee's legs freely contract and stretch. Using these springlike legs, it bowls over foes with devastating kicks. After battle, it rubs down its legs and loosens the muscles to overcome fatigue."
+107,hitmonchan,1,1.4,50.2,159,fighting,,50,105,79,76,35,110,"Hitmonchan is said to possess the spirit of a boxer who had been working toward a world championship. This Pokémon has an indomitable spirit and will never give up in the face of adversity."
+108,lickitung,1,1.2,65.5,77,normal,,90,55,75,30,60,75,"Whenever Lickitung comes across something new, it will unfailingly give it a lick. It does so because it memorizes things by texture and by taste. It is somewhat put off by sour things."
+109,koffing,1,0.6,1.0,68,poison,,40,65,95,35,60,45,"If Koffing becomes agitated, it raises the toxicity of its internal gases and jets them out from all over its body. This Pokémon may also overinflate its round body, then explode."
+110,weezing,1,1.2,9.5,172,poison,,65,90,120,60,85,70,"Weezing loves the gases given off by rotted kitchen garbage. This Pokémon will find a dirty, unkempt house and make it its home. At night, when the people in the house are asleep, it will go through the trash."
+111,rhyhorn,1,1.0,115.0,69,ground,rock,80,85,95,25,30,30,"Rhyhorn runs in a straight line, smashing everything in its path. It is not bothered even if it rushes headlong into a block of steel. This Pokémon may feel some pain from the collision the next day, however."
+112,rhydon,1,1.9,120.0,170,ground,rock,105,130,120,40,45,45,"Rhydon's horn can crush even uncut diamonds. One sweeping blow of its tail can topple a building. This Pokémon's hide is extremely tough. Even direct cannon hits don't leave a scratch."
+113,chansey,1,1.1,34.6,395,normal,,250,5,5,50,35,105,"Chansey lays nutritionally excellent eggs on an everyday basis. The eggs are so delicious, they are easily and eagerly devoured by even those people who have lost their appetite."
+114,tangela,1,1.0,35.0,87,grass,,65,55,115,60,100,40,"Tangela's vines snap off easily if they are grabbed. This happens without pain, allowing it to make a quick getaway. The lost vines are replaced by newly grown vines the very next day."
+115,kangaskhan,1,2.2,80.0,172,normal,,105,95,80,90,40,80,"If you come across a young Kangaskhan playing by itself, you must never disturb it or attempt to catch it. The baby Pokémon's parent is sure to be in the area, and it will become violently enraged at you."
+116,horsea,1,0.4,8.0,59,water,,30,40,70,60,70,25,"Horsea eats small insects and moss off of rocks. If the ocean current turns fast, this Pokémon anchors itself by wrapping its tail around rocks or coral to prevent being washed away."
+117,seadra,1,1.2,25.0,154,water,,55,65,95,85,95,45,"Seadra sleeps after wriggling itself between the branches of coral. Those trying to harvest coral are occasionally stung by this Pokémon's poison barbs if they fail to notice it."
+118,goldeen,1,0.6,15.0,64,water,,45,67,60,63,35,50,"Goldeen is a very beautiful Pokémon with fins that billow elegantly in water. However, don't let your guard down around this Pokémon—it could ram you powerfully with its horn."
+119,seaking,1,1.3,39.0,158,water,,80,92,65,68,65,80,"In the autumn, Seaking males can be seen performing courtship dances in riverbeds to woo females. During this season, this Pokémon's body coloration is at its most beautiful."
+120,staryu,1,0.8,34.5,68,water,,30,45,55,85,70,55,"Staryu's center section has an organ called the core that shines bright red. If you go to a beach toward the end of summer, the glowing cores of these Pokémon look like the stars in the sky."
+121,starmie,1,1.1,80.0,182,water,psychic,60,75,85,115,100,85,"Starmie's center section—the core—glows brightly in seven colors. Because of its luminous nature, this Pokémon has been given the nickname "“the gem of the sea."
+122,mr mime,1,1.3,54.5,161,psychic,fairy,40,45,65,90,100,120,"Mr. Mime is a master of pantomime. Its gestures and motions convince watchers that something unseeable actually exists. Once the watchers are convinced, the unseeable thing exists as if it were real."
+123,scyther,1,1.5,56.0,100,bug,flying,70,110,80,105,55,80,"Scyther is blindingly fast. Its blazing speed enhances the effectiveness of the twin scythes on its forearms. This Pokémon's scythes are so effective, they can slice through thick logs in one wicked stroke."
+124,jynx,1,1.4,40.6,159,ice,psychic,65,50,35,95,115,95,"Jynx walks rhythmically, swaying and shaking its hips as if it were dancing. Its motions are so bouncingly alluring, people seeing it are compelled to shake their hips without giving any thought to what they are doing."
+125,electabuzz,1,1.1,30.0,172,electric,,65,83,57,105,95,85,"When a storm arrives, gangs of this Pokémon compete with each other to scale heights that are likely to be stricken by lightning bolts. Some towns use Electabuzz in place of lightning rods."
+126,magmar,1,1.3,44.5,173,fire,,65,95,57,93,100,85,"In battle, Magmar blows out intensely hot flames from all over its body to intimidate its opponent. This Pokémon's fiery bursts create heat waves that ignite grass and trees in its surroundings."
+127,pinsir,1,1.5,55.0,175,bug,,65,125,100,85,55,70,"Pinsir is astoundingly strong. It can grip a foe weighing twice its weight in its horns and easily lift it. This Pokémon's movements turn sluggish in cold places."
+128,tauros,1,1.4,88.4,172,normal,,75,100,95,110,40,70,"This Pokémon is not satisfied unless it is rampaging at all times. If there is no opponent for Tauros to battle, it will charge at thick trees and knock them down to calm itself."
+129,magikarp,1,0.9,10.0,40,water,,20,10,55,80,15,20,"Magikarp is a pathetic excuse for a Pokémon that is only capable of flopping and splashing. This behavior prompted scientists to undertake research into it."
+130,gyarados,1,6.5,235.0,189,water,flying,95,125,79,81,60,100,"When Magikarp evolves into Gyarados, its brain cells undergo a structural transformation. It is said that this transformation is to blame for this Pokémon's wildly violent nature."
+131,lapras,1,2.5,220.0,187,water,ice,130,85,80,60,85,95,"People have driven Lapras almost to the point of extinction. In the evenings, this Pokémon is said to sing plaintively as it seeks what few others of its kind still remain."
+132,ditto,1,0.3,4.0,101,normal,,48,48,48,48,48,48,"Ditto rearranges its cell structure to transform itself into other shapes. However, if it tries to transform itself into something by relying on its memory, this Pokémon manages to get details wrong."
+133,eevee,1,0.3,6.5,65,normal,,55,55,50,55,45,65,"Eevee has an unstable genetic makeup that suddenly mutates due to the environment in which it lives. Radiation from various stones causes this Pokémon to evolve."
+134,vaporeon,1,1.0,29.0,184,water,,130,65,60,65,110,95,"Vaporeon underwent a spontaneous mutation and grew fins and gills that allow it to live underwater. This Pokémon has the ability to freely control water."
+135,jolteon,1,0.8,24.5,184,electric,,65,65,60,130,110,95,"Jolteon's cells generate a low level of electricity. This power is amplified by the static electricity of its fur, enabling the Pokémon to drop thunderbolts. The bristling fur is made of electrically charged needles."
+136,flareon,1,0.9,25.0,184,fire,,65,130,60,65,95,110,"Flareon's fluffy fur has a functional purpose—it releases heat into the air so that its body does not get excessively hot. This Pokémon's body temperature can rise to a maximum of 1,650 degrees Fahrenheit."
+137,porygon,1,0.8,36.5,79,normal,,65,60,70,40,85,75,"Porygon is capable of reverting itself entirely back to program data and entering cyberspace. This Pokémon is copy protected so it cannot be duplicated by copying."
+138,omanyte,1,0.4,7.5,71,rock,water,35,40,100,35,90,55,"Omanyte is one of the ancient and long-since-extinct Pokémon that have been regenerated from fossils by people. If attacked by an enemy, it withdraws itself inside its hard shell."
+139,omastar,1,1.0,35.0,173,rock,water,70,60,125,55,115,70,"Omastar uses its tentacles to capture its prey. It is believed to have become extinct because its shell grew too large and heavy, causing its movements to become too slow and ponderous."
+140,kabuto,1,0.5,11.5,71,rock,water,30,80,90,55,55,45,"Kabuto is a Pokémon that has been regenerated from a fossil. However, in extremely rare cases, living examples have been discovered. The Pokémon has not changed at all for 300 million years."
+141,kabutops,1,1.3,40.5,173,rock,water,60,115,105,80,65,70,"Kabutops swam underwater to hunt for its prey in ancient times. The Pokémon was apparently evolving from being a water dweller to living on land as evident from the beginnings of change in its gills and legs."
+142,aerodactyl,1,1.8,59.0,180,rock,flying,80,105,65,130,60,75,"Aerodactyl is a Pokémon from the age of dinosaurs. It was regenerated from genetic material extracted from amber. It is imagined to have been the king of the skies in ancient times."
+143,snorlax,1,2.1,460.0,189,normal,,160,110,65,30,65,110,"Snorlax's typical day consists of nothing more than eating and sleeping. It is such a docile Pokémon that there are children who use its expansive belly as a place to play."
+144,articuno,1,1.7,55.4,261,ice,flying,90,85,100,85,95,125,"Articuno is a legendary bird Pokémon that can control ice. The flapping of its wings chills the air. As a result, it is said that when this Pokémon flies, snow will fall."
+146,moltres,1,2.0,60.0,261,fire,flying,90,100,90,90,125,85,"Moltres is a legendary bird Pokémon that has the ability to control fire. If this Pokémon is injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself."
+145,zapdos,1,1.6,52.6,261,electric,flying,90,90,85,100,125,90,"Zapdos is a legendary bird Pokémon that has the ability to control electricity. It usually lives in thunderclouds. The Pokémon gains power if it is stricken by lightning bolts."
+147,dratini,1,1.8,3.3,60,dragon,,41,64,45,50,50,50,"Dratini continually molts and sloughs off its old skin. It does so because the life energy within its body steadily builds to reach uncontrollable levels.""
+148,dragonair,1,4.0,16.5,147,dragon,,61,84,65,70,70,70,"Dragonair stores an enormous amount of energy inside its body. It is said to alter weather conditions in its vicinity by discharging energy from the crystals on its neck and tail."
+149,dragonite,1,2.2,210.0,270,dragon,flying,91,134,95,80,100,100,"Dragonite is capable of circling the globe in just 16 hours. It is a kindhearted Pokémon that leads lost and foundering ships in a storm to the safety of land."
+150,mewtwo,1,2.0,122.0,306,psychic,,106,110,90,130,154,90,"Mewtwo is a Pokémon that was created by genetic manipulation. However, even though the scientific power of humans created this Pokémon's body, they failed to endow Mewtwo with a compassionate heart."
+151,mew,1,0.4,4.0,270,psychic,,100,100,100,100,100,100,"Mew is said to possess the genetic composition of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people."
+152,chikorita,2,0.9,6.4,64,grass,,45,49,65,45,49,65,"In battle, Chikorita waves its leaf around to keep the foe at bay. However, a sweet fragrance also wafts from the leaf, becalming the battling Pokémon and creating a cozy, friendly atmosphere all around."
+153,bayleef,2,1.2,15.8,142,grass,,60,62,80,60,63,80,"Bayleef's neck is ringed by curled-up leaves. Inside each tubular leaf is a small shoot of a tree. The fragrance of this shoot makes people peppy."
+154,meganium,2,1.8,100.5,236,grass,,80,82,100,80,83,100,"The fragrance of Meganium's flower soothes and calms emotions. In battle, this Pokémon gives off more of its becalming scent to blunt the foe's fighting spirit."
+155,cyndaquil,2,0.5,7.9,62,fire,,39,52,43,65,60,50,"Cyndaquil protects itself by flaring up the flames on its back. The flames are vigorous if the Pokémon is angry. However, if it is tired, the flames splutter fitfully with incomplete combustion."
+156,quilava,2,0.9,19.0,142,fire,,58,64,58,80,80,65,"Quilava keeps its foes at bay with the intensity of its flames and gusts of superheated air. This Pokémon applies its outstanding nimbleness to dodge attacks even while scorching the foe with flames."
+157,typhlosion,2,1.7,79.5,240,fire,,78,84,78,100,109,85,"Typhlosion obscures itself behind a shimmering heat haze that it creates using its intensely hot flames. This Pokémon creates blazing explosive blasts that burn everything to cinders."
+158,totodile,2,0.6,9.5,63,water,,50,65,64,43,44,48,"Despite the smallness of its body, Totodile's jaws are very powerful. While the Pokémon may think it is just playfully nipping, its bite has enough power to cause serious injury."
+159,croconaw,2,1.1,25.0,142,water,,65,80,80,58,59,63,"Once Croconaw has clamped its jaws on its foe, it will absolutely not let go. Because the tips of its fangs are forked back like barbed fishhooks, they become impossible to remove when they have sunk in."
+160,feraligatr,2,2.3,88.8,239,water,,85,105,100,78,79,83,"Feraligatr intimidates its foes by opening its huge mouth. In battle, it will kick the ground hard with its thick and powerful hind legs to charge at the foe at an incredible speed."
+161,sentret,2,0.8,6.0,43,normal,,35,46,34,20,35,45,"When Sentret sleeps, it does so while another stands guard. The sentry wakes the others at the first sign of danger. When this Pokémon becomes separated from its pack, it becomes incapable of sleep due to fear."
+162,furret,2,1.8,32.5,145,normal,,85,76,64,90,45,55,"Furret has a very slim build. When under attack, it can slickly squirm through narrow spaces and get away. In spite of its short limbs, this Pokémon is very nimble and fleet."
+163,hoothoot,2,0.7,21.2,52,normal,flying,60,30,30,50,36,56,"Hoothoot has an internal organ that senses and tracks the earth's rotation. Using this special organ, this Pokémon begins hooting at precisely the same time every day."
+164,noctowl,2,1.6,40.8,158,normal,flying,100,50,50,70,86,96,"Noctowl never fails at catching prey in darkness. This Pokémon owes its success to its superior vision that allows it to see in minimal light, and to its soft, supple wings that make no sound in flight."
+165,ledyba,2,1.0,10.8,53,bug,flying,40,20,30,55,40,80,"Ledyba secretes an aromatic fluid from where its legs join its body. This fluid is used for communicating with others. This Pokémon conveys its feelings to others by altering the fluid's scent."
+166,ledian,2,1.4,35.6,137,bug,flying,55,35,50,85,55,110,"It is said that in lands with clean air, where the stars fill the sky, there live Ledian in countless numbers. There is a good reason for this—the Pokémon uses the light of the stars as its energy."
+167,spinarak,2,0.5,8.5,50,bug,poison,40,60,40,30,40,40,"The web spun by Spinarak can be considered its second nervous system. It is said that this Pokémon can determine what kind of prey is touching its web just by the tiny vibrations it feels through the web's strands."
+168,ariados,2,1.1,33.5,140,bug,poison,70,90,70,40,60,70,"Ariados's feet are tipped with tiny hooked claws that enable it to scuttle on ceilings and vertical walls. This Pokémon constricts the foe with thin and strong silk webbing."
+169,crobat,2,1.8,75.0,241,poison,flying,85,90,80,130,70,80,"If this Pokémon is flying by fluttering only a pair of wings on either the forelegs or hind legs, it's proof that Crobat has been flying a long distance. It switches the wings it uses if it is tired."
+170,chinchou,2,0.5,12.0,66,water,electric,75,38,38,67,56,56,"Chinchou lets loose positive and negative electrical charges from its two antennas to make its prey faint. This Pokémon flashes its electric lights to exchange signals with others."
+171,lanturn,2,1.2,22.5,161,water,electric,125,58,58,67,76,76,"Lanturn is nicknamed “the deep-sea star" for its illuminated antenna. This Pokémon produces light by causing a chemical reaction between bacteria and its bodily fluids inside the antenna."
+172,pichu,2,0.3,2.0,41,electric,,20,40,15,60,35,35,"Pichu charges itself with electricity more easily on days with thunderclouds or when the air is very dry. You can hear the crackling of static electricity coming off this Pokémon."
+173,cleffa,2,0.3,3.0,44,fairy,,50,25,28,15,45,55,"On nights with many shooting stars, Cleffa can be seen dancing in a ring. They dance through the night and stop only at the break of day, when these Pokémon quench their thirst with the morning dew."
+174,igglybuff,2,0.3,1.0,42,normal,fairy,90,30,15,15,40,20,"Igglybuff's vocal cords are not sufficiently developed. It would hurt its throat if it were to sing too much. This Pokémon gargles with freshwater from a clean stream."
+175,togepi,2,0.3,1.5,49,fairy,,35,20,65,20,40,65,"As its energy, Togepi uses the positive emotions of compassion and pleasure exuded by people and Pokémon. This Pokémon stores up feelings of happiness inside its shell, then shares them with others."
+176,togetic,2,0.6,3.2,142,fairy,flying,55,40,85,40,80,105,"Togetic is said to be a Pokémon that brings good fortune. When the Pokémon spots someone who is pure of heart, it is said to appear and share its happiness with that person."
+177,natu,2,0.2,2.0,64,psychic,flying,40,50,45,70,70,45,"Natu cannot fly because its wings are not yet fully grown. If your eyes meet with this Pokémon's eyes, it will stare back intently at you. But if you move even slightly, it will hop away to safety."
+178,xatu,2,1.5,15.0,165,psychic,flying,65,75,70,95,95,70,"Xatu stands rooted and still in one spot all day long. People believe that this Pokémon does so out of fear of the terrible things it has foreseen in the future."
+179,mareep,2,0.6,7.8,56,electric,,55,40,40,35,65,45,"Mareep's fluffy coat of wool rubs together and builds a static charge. The more static electricity is charged, the more brightly the lightbulb at the tip of its tail glows."
+180,flaaffy,2,0.8,13.3,128,electric,,70,55,55,45,80,60,"Flaaffy's wool quality changes so that it can generate a high amount of static electricity with a small amount of wool. The bare and slick parts of its hide are shielded against electricity."
+181,ampharos,2,1.4,61.5,230,electric,,90,75,85,55,115,90,"Ampharos gives off so much light that it can be seen even from space. People in the old days used the light of this Pokémon to send signals back and forth with others far away."
+182,bellossom,2,0.4,5.8,221,grass,,75,80,95,50,90,100,"When Bellossom gets exposed to plenty of sunlight, the leaves ringing its body begin to spin around. This Pokémon's dancing is renowned in the southern lands."
+183,marill,2,0.4,8.5,88,water,fairy,70,20,50,40,20,50,"Marill's oil-filled tail acts much like a life preserver. If you see just its tail bobbing on the water's surface, it's a sure indication that this Pokémon is diving beneath the water to feed on aquatic plants."
+184,azumarill,2,0.8,28.5,189,water,fairy,100,50,80,50,60,80,"Azumarill's long ears are indispensable sensors. By focusing its hearing, this Pokémon can identify what kinds of prey are around, even in rough and fast-running rivers."
+185,sudowoodo,2,1.2,38.0,144,rock,,70,100,115,30,30,65,"Sudowoodo camouflages itself as a tree to avoid being attacked by enemies. However, because its hands remain green throughout the year, the Pokémon is easily identified as a fake during the winter."
+186,politoed,2,1.1,33.9,225,water,,90,75,75,70,90,100,"The curled hair on Politoed's head is proof of its status as a king. It is said that the longer and more curled the hair, the more respect this Pokémon earns from its peers."
+187,hoppip,2,0.4,0.5,50,grass,flying,35,35,40,50,35,55,"This Pokémon drifts and floats with the wind. If it senses the approach of strong winds, Hoppip links its leaves with other Hoppip to prepare against being blown away."
+188,skiploom,2,0.6,1.0,119,grass,flying,55,45,50,80,45,65,"Skiploom's flower blossoms when the temperature rises above 64 degrees Fahrenheit. How much the flower opens depends on the temperature. For that reason, this Pokémon is sometimes used as a thermometer."
+189,jumpluff,2,0.8,3.0,207,grass,flying,75,55,70,110,55,95,"Jumpluff rides warm southern winds to cross the sea and fly to foreign lands. The Pokémon descends to the ground when it encounters cold air while it is floating."
+190,aipom,2,0.8,11.5,72,normal,,55,70,55,85,40,55,"Aipom's tail ends in a hand-like appendage that can be cleverly manipulated. However, because the Pokémon uses its tail so much, its real hands have become rather clumsy."
+191,sunkern,2,0.3,1.8,36,grass,,30,30,30,30,30,30,"Sunkern tries to move as little as it possibly can. It does so because it tries to conserve all the nutrients it has stored in its body for its evolution. It will not eat a thing, subsisting only on morning dew."
+192,sunflora,2,0.8,8.5,149,grass,,75,75,55,30,105,85,"Sunflora converts solar energy into nutrition. It moves around actively in the daytime when it is warm. It stops moving as soon as the sun goes down for the night."
+193,yanma,2,1.2,38.0,78,bug,flying,65,65,45,95,75,45,"Yanma is capable of seeing 360 degrees without having to move its eyes. It is a great flier that is adept at making sudden stops and turning midair. This Pokémon uses its flying ability to quickly chase down targeted prey."
+194,wooper,2,0.4,8.5,42,water,ground,55,45,45,15,25,25,"Wooper usually lives in water. However, it occasionally comes out onto land in search of food. On land, it coats its body with a gooey, toxic film."
+195,quagsire,2,1.4,75.0,151,water,ground,95,85,85,35,65,65,"Quagsire hunts for food by leaving its mouth wide open in water and waiting for its prey to blunder in unaware. Because the Pokémon does not move, it does not get very hungry."
+196,espeon,2,0.9,26.5,184,psychic,,65,65,60,110,130,95,"Espeon is extremely loyal to any Trainer it considers to be worthy. It is said that this Pokémon developed its precognitive powers to protect its Trainer from harm."
+197,umbreon,2,1.0,27.0,184,dark,,95,65,110,65,60,130,"Umbreon evolved as a result of exposure to the moon's waves. It hides silently in darkness and waits for its foes to make a move. The rings on its body glow when it leaps to attack."
+198,murkrow,2,0.5,2.1,81,dark,flying,60,85,42,91,85,42,"Murkrow was feared and loathed as the alleged bearer of ill fortune. This Pokémon shows strong interest in anything that sparkles or glitters. It will even try to steal rings from women."
+199,slowking,2,2.0,79.5,172,water,psychic,95,75,80,30,100,110,"Slowking undertakes research every day in an effort to solve the mysteries of the world. However, this Pokémon apparently forgets everything it has learned if the Shellder on its head comes off."
+200,misdreavus,2,0.7,1.0,87,ghost,,60,60,60,85,85,85,"Misdreavus frightens people with a creepy, sobbing cry. The Pokémon apparently uses its red spheres to absorb the fearful feelings of foes and turn them into nutrition."
+201,unown,2,0.5,5.0,118,psychic,,48,72,48,48,72,48,"This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known."
+202,wobbuffet,2,1.3,28.5,142,psychic,,190,33,58,33,33,58,"If two or more Wobbuffet meet, they will turn competitive and try to outdo each other's endurance. However, they may try to see which one can endure the longest without food. Trainers need to beware of this habit."
+203,girafarig,2,1.5,41.5,159,normal,psychic,70,80,65,85,90,65,"Girafarig's rear head also has a brain, but it is small. The rear head attacks in response to smells and sounds. Approaching this Pokémon from behind can cause the rear head to suddenly lash out and bite."
+204,pineco,2,0.6,7.2,58,bug,,50,65,90,15,35,35,"Pineco hangs from a tree branch and patiently waits for prey to come along. If the Pokémon is disturbed while eating by someone shaking its tree, it drops down to the ground and explodes with no warning."
+205,forretress,2,1.2,125.8,163,bug,steel,75,90,140,40,60,60,"Forretress conceals itself inside its hardened steel shell. The shell is opened when the Pokémon is catching prey, but it does so at such a quick pace that the shell's inside cannot be seen."
+206,dunsparce,2,1.5,14.0,145,normal,,100,70,70,45,65,65,"Dunsparce has a drill for its tail. It uses this tail to burrow into the ground backward. This Pokémon is known to make its nest in complex shapes deep under the ground."
+207,gligar,2,1.1,64.8,86,ground,flying,65,75,105,85,35,65,"Gligar glides through the air without a sound as if it were sliding. This Pokémon hangs on to the face of its foe using its clawed hind legs and the large pincers on its forelegs, then injects the prey with its poison barb."
+208,steelix,2,9.2,400.0,179,steel,ground,75,85,200,30,55,65,"Steelix lives even further underground than Onix. This Pokémon is known to dig toward the earth's core. There are records of this Pokémon reaching a depth of over six-tenths of a mile underground."
+209,snubbull,2,0.6,7.8,60,fairy,,60,80,50,30,40,40,"By baring its fangs and making a scary face, Snubbull sends smaller Pokémon scurrying away in terror. However, this Pokémon seems a little sad at making its foes flee."
+210,granbull,2,1.4,48.7,158,fairy,,90,120,75,45,60,60,"Granbull has a particularly well-developed lower jaw. The enormous fangs are heavy, causing the Pokémon to tip its head back for balance. Unless it is startled, it will not try to bite indiscriminately."
+211,qwilfish,2,0.5,3.9,88,water,poison,65,95,85,85,55,55,"Qwilfish sucks in water, inflating itself. This Pokémon uses the pressure of the water it swallowed to shoot toxic quills all at once from all over its body. It finds swimming somewhat challenging."
+212,scizor,2,1.8,118.0,175,bug,steel,70,130,100,65,55,80,"Scizor has a body with the hardness of steel. It is not easily fazed by ordinary sorts of attacks. This Pokémon flaps its wings to regulate its body temperature."
+213,shuckle,2,0.6,20.5,177,bug,rock,20,10,230,5,10,230,"Shuckle quietly hides itself under rocks, keeping its body concealed inside its hard shell while eating berries it has stored away. The berries mix with its body fluids to become a juice."
+214,heracross,2,1.5,54.0,175,bug,fighting,80,125,75,85,40,95,"Heracross charges in a straight line at its foe, slips beneath the foe's grasp, and then scoops up and hurls the opponent with its mighty horn. This Pokémon even has enough power to topple a massive tree."
+215,sneasel,2,0.9,28.0,86,dark,ice,55,95,55,115,35,75,"Sneasel scales trees by punching its hooked claws into the bark. This Pokémon seeks out unguarded nests and steals eggs for food while the parents are away."
+216,teddiursa,2,0.6,8.8,66,normal,,60,80,50,40,50,50,"This Pokémon likes to lick its palms that are sweetened by being soaked in honey. Teddiursa concocts its own honey by blending fruits and pollen collected by Beedrill."
+217,ursaring,2,1.8,125.8,175,normal,,90,130,75,55,75,75,"In the forests inhabited by Ursaring, it is said that there are many streams and towering trees where they gather food. This Pokémon walks through its forest gathering food every day."
+218,slugma,2,0.7,35.0,50,fire,,40,40,40,20,70,40,"Molten magma courses throughout Slugma's circulatory system. If this Pokémon is chilled, the magma cools and hardens. Its body turns brittle and chunks fall off, reducing its size."
+219,magcargo,2,0.8,55.0,151,fire,rock,60,50,120,30,90,80,"Magcargo's shell is actually its skin that hardened as a result of cooling. Its shell is very brittle and fragile—just touching it causes it to crumble apart. This Pokémon returns to its original size by dipping itself in magma."
+220,swinub,2,0.4,6.5,50,ice,ground,50,50,40,50,30,30,"Swinub roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under the cover of dead grass. This Pokémon occasionally roots out hot springs."
+221,piloswine,2,1.1,55.8,158,ice,ground,100,100,80,50,60,60,"Piloswine is covered by a thick coat of long hair that enables it to endure the freezing cold. This Pokémon uses its tusks to dig up food that has been buried under ice."
+222,corsola,2,0.6,5.0,144,water,rock,65,55,95,35,65,95,"Corsola's branches glitter very beautifully in seven colors when they catch sunlight. If any branch breaks off, this Pokémon grows it back in just one night."
+223,remoraid,2,0.6,12.0,60,water,,35,65,35,65,65,35,"Remoraid sucks in water, then expels it at high velocity using its abdominal muscles to shoot down flying prey. When evolution draws near, this Pokémon travels downstream from rivers."
+224,octillery,2,0.9,28.5,168,water,,75,105,75,45,105,75,"Octillery grabs onto its foe using its tentacles. This Pokémon tries to immobilize it before delivering the finishing blow. If the foe turns out to be too strong, Octillery spews ink to escape."
+225,delibird,2,0.9,16.0,116,ice,flying,45,55,45,75,65,45,"Delibird carries its food bundled up in its tail. There once was a famous explorer who managed to reach the peak of the world's highest mountain, thanks to one of these Pokémon sharing its food."
+226,mantine,2,2.1,220.0,170,water,flying,85,40,70,70,80,140,"On sunny days, schools of Mantine can be seen elegantly leaping over the sea's waves. This Pokémon is not bothered by the Remoraid that hitches rides."
+227,skarmory,2,1.7,50.5,163,steel,flying,65,80,140,70,40,70,"Skarmory is entirely encased in hard, protective armor. This Pokémon flies at close to 190 mph. It slashes foes with its wings that possess swordlike cutting edges."
+228,houndour,2,0.6,10.8,66,dark,fire,45,60,30,65,80,50,"Houndour hunt as a coordinated pack. They communicate with each other using a variety of cries to corner their prey. This Pokémon's remarkable teamwork is unparalleled."
+229,houndoom,2,1.4,35.0,175,dark,fire,75,90,50,95,110,80,"In a Houndoom pack, the one with its horns raked sharply toward the back serves a leadership role. These Pokémon choose their leader by fighting among themselves."
+230,kingdra,2,1.8,152.0,243,water,dragon,75,95,95,85,95,95,"Kingdra lives at extreme ocean depths that are otherwise uninhabited. It has long been believed that the yawning of this Pokémon creates spiraling ocean currents."
+231,phanpy,2,0.5,33.5,66,ground,,90,60,60,40,40,40,"For its nest, Phanpy digs a vertical pit in the ground at the edge of a river. It marks the area around its nest with its trunk to let the others know that the area has been claimed."
+232,donphan,2,1.1,120.0,175,ground,,90,120,120,50,60,60,"Donphan's favorite attack is curling its body into a ball, then charging at its foe while rolling at high speed. Once it starts rolling, this Pokémon can't stop very easily."
+233,porygon2,2,0.6,32.5,180,normal,,85,80,90,60,105,95,"Porygon2 was created by humans using the power of science. The man-made Pokémon has been endowed with artificial intelligence that enables it to learn new gestures and emotions on its own."
+234,stantler,2,1.4,71.2,163,normal,,73,95,62,85,85,65,"Stantler's magnificent antlers were traded at high prices as works of art. As a result, this Pokémon was hunted close to extinction by those who were after the priceless antlers."
+235,smeargle,2,1.2,58.0,88,normal,,55,20,35,75,20,45,"Smeargle marks the boundaries of its territory using a body fluid that leaks out from the tip of its tail. Over 5,000 different marks left by this Pokémon have been found."
+236,tyrogue,2,0.7,21.0,42,fighting,,35,35,35,35,35,35,"Tyrogue becomes stressed out if it does not get to train every day. When raising this Pokémon, the Trainer must establish and uphold various training methods."
+237,hitmontop,2,1.4,48.0,159,fighting,,50,95,95,70,35,110,"Hitmontop spins on its head at high speed, all the while delivering kicks. This technique is a remarkable mix of both offense and defense at the same time. The Pokémon travels faster spinning than it does walking."
+238,smoochum,2,0.4,6.0,61,ice,psychic,45,30,15,65,85,65,"Smoochum actively runs about, but also falls quite often. Whenever the chance arrives, it will look for its reflection to make sure its face hasn't become dirty."
+239,elekid,2,0.6,23.5,72,electric,,45,63,37,95,65,55,"Elekid stores electricity in its body. If it touches metal and accidentally discharges all its built-up electricity, this Pokémon begins swinging its arms in circles to recharge itself."
+240,magby,2,0.7,21.4,73,fire,,45,75,37,83,70,55,"Magby's state of health is determined by observing the fire it breathes. If the Pokémon is spouting yellow flames from its mouth, it is in good health. When it is fatigued, black smoke will be mixed in with the flames."
+241,miltank,2,1.2,75.5,172,normal,,95,80,105,100,40,70,"Miltank gives over five gallons of milk on a daily basis. Its sweet milk is enjoyed by children and grown-ups alike. People who can't drink milk turn it into yogurt and eat it instead."
+242,blissey,2,1.5,46.8,608,normal,,255,10,10,55,75,135,"Blissey senses sadness with its fluffy coat of fur. If it does so, this Pokémon will rush over to a sad person, no matter how far away, to share a Lucky Egg that brings a smile to any face."
+243,raikou,2,1.9,178.0,261,electric,,90,85,75,115,115,100,"Raikou embodies the speed of lightning. The roars of this Pokémon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down."
+244,entei,2,2.1,198.0,261,fire,,115,115,85,100,90,75,"Entei embodies the passion of magma. This Pokémon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch."
+245,suicune,2,2.0,187.0,261,water,,100,75,115,85,90,115,"Suicune embodies the compassion of a pure spring of water. It runs across the land with gracefulness. This Pokémon has the power to purify dirty water."
+246,larvitar,2,0.6,72.0,60,rock,ground,50,64,50,41,45,50,"Larvitar is born deep under the ground. To come up to the surface, this Pokémon must eat its way through the soil above. Until it does so, Larvitar cannot see its parents."
+247,pupitar,2,1.2,152.0,144,rock,ground,70,84,70,51,65,70,"Pupitar creates a gas inside its body that it compresses and forcefully ejects to propel itself like a jet. The body is very durable—it avoids damage even if it hits solid steel."
+248,tyranitar,2,2.0,202.0,270,rock,dark,100,134,110,61,95,100,"Tyranitar is so overwhelmingly powerful, it can bring down a whole mountain to make its nest. This Pokémon wanders about in mountains seeking new opponents to fight."
+249,lugia,2,5.2,216.0,306,psychic,flying,106,90,130,110,90,154,"Lugia's wings pack devastating power—a light fluttering of its wings can blow apart regular houses. As a result, this Pokémon chooses to live out of sight deep under the sea."
+250,ho-oh,2,3.8,199.0,306,fire,flying,106,130,90,90,110,154,"Ho-Oh's feathers glow in seven colors depending on the angle at which they are struck by light. These feathers are said to bring happiness to the bearers. This Pokémon is said to live at the foot of a rainbow."
+251,celebi,2,0.6,5.0,270,psychic,grass,100,100,100,100,100,100,"This Pokémon came from the future by crossing over time. It is thought that so long as Celebi appears, a bright and shining future awaits us."
+252,treecko,3,0.5,5.0,62,grass,,40,45,35,70,65,55,""
+253,grovyle,3,0.9,21.6,142,grass,,50,65,45,95,85,65,""
+254,sceptile,3,1.7,52.2,239,grass,,70,85,65,120,105,85,""
+255,torchic,3,0.4,2.5,62,fire,,45,60,40,45,70,50,""
+256,combusken,3,0.9,19.5,142,fire,fighting,60,85,60,55,85,60,""
+257,blaziken,3,1.9,52.0,239,fire,fighting,80,120,70,80,110,70,""
+258,mudkip,3,0.4,7.6,62,water,,50,70,50,40,50,50,""
+259,marshtomp,3,0.7,28.0,142,water,ground,70,85,70,50,60,70,""
+260,swampert,3,1.5,81.9,241,water,ground,100,110,90,60,85,90,""
+261,poochyena,3,0.5,13.6,56,dark,,35,55,35,35,30,30,""
+262,mightyena,3,1.0,37.0,147,dark,,70,90,70,70,60,60,""
+263,zigzagoon,3,0.4,17.5,56,normal,,38,30,41,60,30,41,""
+264,linoone,3,0.5,32.5,147,normal,,78,70,61,100,50,61,""
+265,wurmple,3,0.3,3.6,56,bug,,45,45,35,20,20,30,""
+266,silcoon,3,0.6,10.0,72,bug,,50,35,55,15,25,25,""
+267,beautifly,3,1.0,28.4,178,bug,flying,60,70,50,65,100,50,""
+268,cascoon,3,0.7,11.5,72,bug,,50,35,55,15,25,25,""
+269,dustox,3,1.2,31.6,173,bug,poison,60,50,70,65,50,90,""
+270,lotad,3,0.5,2.6,44,water,grass,40,30,30,30,40,50,""
+271,lombre,3,1.2,32.5,119,water,grass,60,50,50,50,60,70,""
+272,ludicolo,3,1.5,55.0,216,water,grass,80,70,70,70,90,100,""
+273,seedot,3,0.5,4.0,44,grass,,40,40,50,30,30,30,""
+274,nuzleaf,3,1.0,28.0,119,grass,dark,70,70,40,60,60,40,""
+275,shiftry,3,1.3,59.6,216,grass,dark,90,100,60,80,90,60,""
+276,taillow,3,0.3,2.3,54,normal,flying,40,55,30,85,30,30,""
+277,swellow,3,0.7,19.8,159,normal,flying,60,85,60,125,75,50,""
+278,wingull,3,0.6,9.5,54,water,flying,40,30,30,85,55,30,""
+279,pelipper,3,1.2,28.0,154,water,flying,60,50,100,65,95,70,""
+280,ralts,3,0.4,6.6,40,psychic,fairy,28,25,25,40,45,35,""
+281,kirlia,3,0.8,20.2,97,psychic,fairy,38,35,35,50,65,55,""
+282,gardevoir,3,1.6,48.4,233,psychic,fairy,68,65,65,80,125,115,""
+283,surskit,3,0.5,1.7,54,bug,water,40,30,32,65,50,52,""
+284,masquerain,3,0.8,3.6,159,bug,flying,70,60,62,80,100,82,""
+285,shroomish,3,0.4,4.5,59,grass,,60,40,60,35,40,60,""
+286,breloom,3,1.2,39.2,161,grass,fighting,60,130,80,70,60,60,""
+287,slakoth,3,0.8,24.0,56,normal,,60,60,60,30,35,35,""
+288,vigoroth,3,1.4,46.5,154,normal,,80,80,80,90,55,55,""
+289,slaking,3,2.0,130.5,252,normal,,150,160,100,100,95,65,""
+290,nincada,3,0.5,5.5,53,bug,ground,31,45,90,40,30,30,""
+291,ninjask,3,0.8,12.0,160,bug,flying,61,90,45,160,50,50,""
+292,shedinja,3,0.8,1.2,83,bug,ghost,1,90,45,40,30,30,""
+293,whismur,3,0.6,16.3,48,normal,,64,51,23,28,51,23,""
+294,loudred,3,1.0,40.5,126,normal,,84,71,43,48,71,43,""
+295,exploud,3,1.5,84.0,221,normal,,104,91,63,68,91,73,""
+296,makuhita,3,1.0,86.4,47,fighting,,72,60,30,25,20,30,""
+297,hariyama,3,2.3,253.8,166,fighting,,144,120,60,50,40,60,""
+298,azurill,3,0.2,2.0,38,normal,fairy,50,20,40,20,20,40,""
+299,nosepass,3,1.0,97.0,75,rock,,30,45,135,30,45,90,""
+300,skitty,3,0.6,11.0,52,normal,,50,45,45,50,35,35,""
+301,delcatty,3,1.1,32.6,140,normal,,70,65,65,90,55,55,""
+302,sableye,3,0.5,11.0,133,dark,ghost,50,75,75,50,65,65,""
+303,mawile,3,0.6,11.5,133,steel,fairy,50,85,85,50,55,55,""
+304,aron,3,0.4,60.0,66,steel,rock,50,70,100,30,40,40,""
+305,lairon,3,0.9,120.0,151,steel,rock,60,90,140,40,50,50,""
+306,aggron,3,2.1,360.0,239,steel,rock,70,110,180,50,60,60,""
+307,meditite,3,0.6,11.2,56,fighting,psychic,30,40,55,60,40,55,""
+308,medicham,3,1.3,31.5,144,fighting,psychic,60,60,75,80,60,75,""
+309,electrike,3,0.6,15.2,59,electric,,40,45,40,65,65,40,""
+310,manectric,3,1.5,40.2,166,electric,,70,75,60,105,105,60,""
+311,plusle,3,0.4,4.2,142,electric,,60,50,40,95,85,75,""
+312,minun,3,0.4,4.2,142,electric,,60,40,50,95,75,85,""
+313,volbeat,3,0.7,17.7,151,bug,,65,73,75,85,47,85,""
+314,illumise,3,0.6,17.7,151,bug,,65,47,75,85,73,85,""
+315,roselia,3,0.3,2.0,140,grass,poison,50,60,45,65,100,80,""
+316,gulpin,3,0.4,10.3,60,poison,,70,43,53,40,43,53,""
+317,swalot,3,1.7,80.0,163,poison,,100,73,83,55,73,83,""
+318,carvanha,3,0.8,20.8,61,water,dark,45,90,20,65,65,20,""
+319,sharpedo,3,1.8,88.8,161,water,dark,70,120,40,95,95,40,""
+320,wailmer,3,2.0,130.0,80,water,,130,70,35,60,70,35,""
+321,wailord,3,14.5,398.0,175,water,,170,90,45,60,90,45,""
+322,numel,3,0.7,24.0,61,fire,ground,60,60,40,35,65,45,""
+323,camerupt,3,1.9,220.0,161,fire,ground,70,100,70,40,105,75,""
+324,torkoal,3,0.5,80.4,165,fire,,70,85,140,20,85,70,""
+325,spoink,3,0.7,30.6,66,psychic,,60,25,35,60,70,80,""
+326,grumpig,3,0.9,71.5,165,psychic,,80,45,65,80,90,110,""
+327,spinda,3,1.1,5.0,126,normal,,60,60,60,60,60,60,""
+328,trapinch,3,0.7,15.0,58,ground,,45,100,45,10,45,45,""
+329,vibrava,3,1.1,15.3,119,ground,dragon,50,70,50,70,50,50,""
+330,flygon,3,2.0,82.0,234,ground,dragon,80,100,80,100,80,80,""
+331,cacnea,3,0.4,51.3,67,grass,,50,85,40,35,85,40,""
+332,cacturne,3,1.3,77.4,166,grass,dark,70,115,60,55,115,60,""
+333,swablu,3,0.4,1.2,62,normal,flying,45,40,60,50,40,75,""
+334,altaria,3,1.1,20.6,172,dragon,flying,75,70,90,80,70,105,""
+335,zangoose,3,1.3,40.3,160,normal,,73,115,60,90,60,60,""
+336,seviper,3,2.7,52.5,160,poison,,73,100,60,65,100,60,""
+337,lunatone,3,1.0,168.0,161,rock,psychic,90,55,65,70,95,85,""
+338,solrock,3,1.2,154.0,161,rock,psychic,90,95,85,70,55,65,""
+339,barboach,3,0.4,1.9,58,water,ground,50,48,43,60,46,41,""
+340,whiscash,3,0.9,23.6,164,water,ground,110,78,73,60,76,71,""
+341,corphish,3,0.6,11.5,62,water,,43,80,65,35,50,35,""
+342,crawdaunt,3,1.1,32.8,164,water,dark,63,120,85,55,90,55,""
+343,baltoy,3,0.5,21.5,60,ground,psychic,40,40,55,55,40,70,""
+344,claydol,3,1.5,108.0,175,ground,psychic,60,70,105,75,70,120,""
+345,lileep,3,1.0,23.8,71,rock,grass,66,41,77,23,61,87,""
+346,cradily,3,1.5,60.4,173,rock,grass,86,81,97,43,81,107,""
+347,anorith,3,0.7,12.5,71,rock,bug,45,95,50,75,40,50,""
+348,armaldo,3,1.5,68.2,173,rock,bug,75,125,100,45,70,80,""
+349,feebas,3,0.6,7.4,40,water,,20,15,20,80,10,55,""
+350,milotic,3,6.2,162.0,189,water,,95,60,79,81,100,125,""
+351,castform,3,0.3,0.8,147,normal,,70,70,70,70,70,70,""
+352,kecleon,3,1.0,22.0,154,normal,,60,90,70,40,60,120,""
+353,shuppet,3,0.6,2.3,59,ghost,,44,75,35,45,63,33,""
+354,banette,3,1.1,12.5,159,ghost,,64,115,65,65,83,63,""
+355,duskull,3,0.8,15.0,59,ghost,,20,40,90,25,30,90,""
+356,dusclops,3,1.6,30.6,159,ghost,,40,70,130,25,60,130,""
+357,tropius,3,2.0,100.0,161,grass,flying,99,68,83,51,72,87,""
+358,chimecho,3,0.6,1.0,159,psychic,,75,50,80,65,95,90,""
+359,absol,3,1.2,47.0,163,dark,,65,130,60,75,75,60,""
+360,wynaut,3,0.6,14.0,52,psychic,,95,23,48,23,23,48,""
+361,snorunt,3,0.7,16.8,60,ice,,50,50,50,50,50,50,""
+362,glalie,3,1.5,256.5,168,ice,,80,80,80,80,80,80,""
+363,spheal,3,0.8,39.5,58,ice,water,70,40,50,25,55,50,""
+364,sealeo,3,1.1,87.6,144,ice,water,90,60,70,45,75,70,""
+365,walrein,3,1.4,150.6,239,ice,water,110,80,90,65,95,90,""
+366,clamperl,3,0.4,52.5,69,water,,35,64,85,32,74,55,""
+367,huntail,3,1.7,27.0,170,water,,55,104,105,52,94,75,""
+368,gorebyss,3,1.8,22.6,170,water,,55,84,105,52,114,75,""
+369,relicanth,3,1.0,23.4,170,water,rock,100,90,130,55,45,65,""
+370,luvdisc,3,0.6,8.7,116,water,,43,30,55,97,40,65,""
+371,bagon,3,0.6,42.1,60,dragon,,45,75,60,50,40,30,""
+372,shelgon,3,1.1,110.5,147,dragon,,65,95,100,50,60,50,""
+373,salamence,3,1.5,102.6,270,dragon,flying,95,135,80,100,110,80,""
+374,beldum,3,0.6,95.2,60,steel,psychic,40,55,80,30,35,60,""
+375,metang,3,1.2,202.5,147,steel,psychic,60,75,100,50,55,80,""
+376,metagross,3,1.6,550.0,270,steel,psychic,80,135,130,70,95,90,""
+377,regirock,3,1.7,230.0,261,rock,,80,100,200,50,50,100,""
+378,regice,3,1.8,175.0,261,ice,,80,50,100,50,100,200,""
+379,registeel,3,1.9,205.0,261,steel,,80,75,150,50,75,150,""
+380,latias,3,1.4,40.0,270,dragon,psychic,80,80,90,110,110,130,""
+381,latios,3,2.0,60.0,270,dragon,psychic,80,90,80,110,130,110,""
+382,kyogre,3,4.5,352.0,302,water,,100,100,90,90,150,140,""
+383,groudon,3,3.5,950.0,302,ground,,100,150,140,90,100,90,""
+384,rayquaza,3,7.0,206.5,306,dragon,flying,105,150,90,95,150,90,""
+385,jirachi,3,0.3,1.1,270,steel,psychic,100,100,100,100,100,100,""
+386,deoxys,3,1.7,60.8,270,psychic,,50,150,50,150,150,50,""
+387,turtwig,4,0.4,10.2,64,grass,,55,68,64,31,45,55,""
+388,grotle,4,1.1,97.0,142,grass,,75,89,85,36,55,65,""
+389,torterra,4,2.2,310.0,236,grass,ground,95,109,105,56,75,85,""
+390,chimchar,4,0.5,6.2,62,fire,,44,58,44,61,58,44,""
+391,monferno,4,0.9,22.0,142,fire,fighting,64,78,52,81,78,52,""
+392,infernape,4,1.2,55.0,240,fire,fighting,76,104,71,108,104,71,""
+393,piplup,4,0.4,5.2,63,water,,53,51,53,40,61,56,""
+394,prinplup,4,0.8,23.0,142,water,,64,66,68,50,81,76,""
+395,empoleon,4,1.7,84.5,239,water,steel,84,86,88,60,111,101,""
+396,starly,4,0.3,2.0,49,normal,flying,40,55,30,60,30,30,""
+397,staravia,4,0.6,15.5,119,normal,flying,55,75,50,80,40,40,""
+398,staraptor,4,1.2,24.9,218,normal,flying,85,120,70,100,50,60,""
+399,bidoof,4,0.5,20.0,50,normal,,59,45,40,31,35,40,""
+400,bibarel,4,1.0,31.5,144,normal,water,79,85,60,71,55,60,""
+401,kricketot,4,0.3,2.2,39,bug,,37,25,41,25,25,41,""
+402,kricketune,4,1.0,25.5,134,bug,,77,85,51,65,55,51,""
+403,shinx,4,0.5,9.5,53,electric,,45,65,34,45,40,34,""
+404,luxio,4,0.9,30.5,127,electric,,60,85,49,60,60,49,""
+405,luxray,4,1.4,42.0,235,electric,,80,120,79,70,95,79,""
+406,budew,4,0.2,1.2,56,grass,poison,40,30,35,55,50,70,""
+407,roserade,4,0.9,14.5,232,grass,poison,60,70,65,90,125,105,""
+408,cranidos,4,0.9,31.5,70,rock,,67,125,40,58,30,30,""
+409,rampardos,4,1.6,102.5,173,rock,,97,165,60,58,65,50,""
+410,shieldon,4,0.5,57.0,70,rock,steel,30,42,118,30,42,88,""
+411,bastiodon,4,1.3,149.5,173,rock,steel,60,52,168,30,47,138,""
+412,burmy,4,0.2,3.4,45,bug,,40,29,45,36,29,45,""
+413,wormadam,4,0.5,6.5,148,bug,grass,60,59,85,36,79,105,""
+414,mothim,4,0.9,23.3,148,bug,flying,70,94,50,66,94,50,""
+415,combee,4,0.3,5.5,49,bug,flying,30,30,42,70,30,42,""
+416,vespiquen,4,1.2,38.5,166,bug,flying,70,80,102,40,80,102,""
+417,pachirisu,4,0.4,3.9,142,electric,,60,45,70,95,45,90,""
+418,buizel,4,0.7,29.5,66,water,,55,65,35,85,60,30,""
+419,floatzel,4,1.1,33.5,173,water,,85,105,55,115,85,50,""
+420,cherubi,4,0.4,3.3,55,grass,,45,35,45,35,62,53,""
+421,cherrim,4,0.5,9.3,158,grass,,70,60,70,85,87,78,""
+422,shellos,4,0.3,6.3,65,water,,76,48,48,34,57,62,""
+423,gastrodon,4,0.9,29.9,166,water,ground,111,83,68,39,92,82,""
+424,ambipom,4,1.2,20.3,169,normal,,75,100,66,115,60,66,""
+425,drifloon,4,0.4,1.2,70,ghost,flying,90,50,34,70,60,44,""
+426,drifblim,4,1.2,15.0,174,ghost,flying,150,80,44,80,90,54,""
+427,buneary,4,0.4,5.5,70,normal,,55,66,44,85,44,56,""
+428,lopunny,4,1.2,33.3,168,normal,,65,76,84,105,54,96,""
+429,mismagius,4,0.9,4.4,173,ghost,,60,60,60,105,105,105,""
+430,honchkrow,4,0.9,27.3,177,dark,flying,100,125,52,71,105,52,""
+431,glameow,4,0.5,3.9,62,normal,,49,55,42,85,42,37,""
+432,purugly,4,1.0,43.8,158,normal,,71,82,64,112,64,59,""
+433,chingling,4,0.2,0.6,57,psychic,,45,30,50,45,65,50,""
+434,stunky,4,0.4,19.2,66,poison,dark,63,63,47,74,41,41,""
+435,skuntank,4,1.0,38.0,168,poison,dark,103,93,67,84,71,61,""
+436,bronzor,4,0.5,60.5,60,steel,psychic,57,24,86,23,24,86,""
+437,bronzong,4,1.3,187.0,175,steel,psychic,67,89,116,33,79,116,""
+438,bonsly,4,0.5,15.0,58,rock,,50,80,95,10,10,45,""
+439,mime jr,4,0.6,13.0,62,psychic,fairy,20,25,45,60,70,90,""
+440,happiny,4,0.6,24.4,110,normal,,100,5,5,30,15,65,""
+441,chatot,4,0.5,1.9,144,normal,flying,76,65,45,91,92,42,""
+442,spiritomb,4,1.0,108.0,170,ghost,dark,50,92,108,35,92,108,""
+443,gible,4,0.7,20.5,60,dragon,ground,58,70,45,42,40,45,""
+444,gabite,4,1.4,56.0,144,dragon,ground,68,90,65,82,50,55,""
+445,garchomp,4,1.9,95.0,270,dragon,ground,108,130,95,102,80,85,""
+446,munchlax,4,0.6,105.0,78,normal,,135,85,40,5,40,85,""
+447,riolu,4,0.7,20.2,57,fighting,,40,70,40,60,35,40,""
+448,lucario,4,1.2,54.0,184,fighting,steel,70,110,70,90,115,70,""
+449,hippopotas,4,0.8,49.5,66,ground,,68,72,78,32,38,42,""
+450,hippowdon,4,2.0,300.0,184,ground,,108,112,118,47,68,72,""
+451,skorupi,4,0.8,12.0,66,poison,bug,40,50,90,65,30,55,""
+452,drapion,4,1.3,61.5,175,poison,dark,70,90,110,95,60,75,""
+453,croagunk,4,0.7,23.0,60,poison,fighting,48,61,40,50,61,40,""
+454,toxicroak,4,1.3,44.4,172,poison,fighting,83,106,65,85,86,65,""
+455,carnivine,4,1.4,27.0,159,grass,,74,100,72,46,90,72,""
+456,finneon,4,0.4,7.0,66,water,,49,49,56,66,49,61,""
+457,lumineon,4,1.2,24.0,161,water,,69,69,76,91,69,86,""
+458,mantyke,4,1.0,65.0,69,water,flying,45,20,50,50,60,120,""
+459,snover,4,1.0,50.5,67,grass,ice,60,62,50,40,62,60,""
+460,abomasnow,4,2.2,135.5,173,grass,ice,90,92,75,60,92,85,""
+461,weavile,4,1.1,34.0,179,dark,ice,70,120,65,125,45,85,""
+462,magnezone,4,1.2,180.0,241,electric,steel,70,70,115,60,130,90,""
+463,lickilicky,4,1.7,140.0,180,normal,,110,85,95,50,80,95,""
+464,rhyperior,4,2.4,282.8,241,ground,rock,115,140,130,40,55,55,""
+465,tangrowth,4,2.0,128.6,187,grass,,100,100,125,50,110,50,""
+466,electivire,4,1.8,138.6,243,electric,,75,123,67,95,95,85,""
+467,magmortar,4,1.6,68.0,243,fire,,75,95,67,83,125,95,""
+468,togekiss,4,1.5,38.0,245,fairy,flying,85,50,95,80,120,115,""
+469,yanmega,4,1.9,51.5,180,bug,flying,86,76,86,95,116,56,""
+470,leafeon,4,1.0,25.5,184,grass,,65,110,130,95,60,65,""
+471,glaceon,4,0.8,25.9,184,ice,,65,60,110,65,130,95,""
+472,gliscor,4,2.0,42.5,179,ground,flying,75,95,125,95,45,75,""
+473,mamoswine,4,2.5,291.0,239,ice,ground,110,130,80,80,70,60,""
+474,porygon z,4,0.9,34.0,241,normal,,85,80,70,90,135,75,""
+475,gallade,4,1.6,52.0,233,psychic,fighting,68,125,65,80,65,115,""
+476,probopass,4,1.4,340.0,184,rock,steel,60,55,145,40,75,150,""
+477,dusknoir,4,2.2,106.6,236,ghost,,45,100,135,45,65,135,""
+478,froslass,4,1.3,26.6,168,ice,ghost,70,80,70,110,80,70,""
+479,rotom,4,0.3,0.3,154,electric,ghost,50,50,77,91,95,77,""
+480,uxie,4,0.3,0.3,261,psychic,,75,75,130,95,75,130,""
+481,mesprit,4,0.3,0.3,261,psychic,,80,105,105,80,105,105,""
+482,azelf,4,0.3,0.3,261,psychic,,75,125,70,115,125,70,""
+483,dialga,4,5.4,683.0,306,steel,dragon,100,120,120,90,150,100,""
+484,palkia,4,4.2,336.0,306,water,dragon,90,120,100,100,150,120,""
+485,heatran,4,1.7,430.0,270,fire,steel,91,90,106,77,130,106,""
+486,regigigas,4,3.7,420.0,302,normal,,110,160,110,100,80,110,""
+487,giratina,4,4.5,750.0,306,ghost,dragon,150,100,120,90,100,120,""
+488,cresselia,4,1.5,85.6,270,psychic,,120,70,120,85,75,130,""
+489,phione,4,0.4,3.1,216,water,,80,80,80,80,80,80,""
+490,manaphy,4,0.3,1.4,270,water,,100,100,100,100,100,100,""
+491,darkrai,4,1.5,50.5,270,dark,,70,90,90,125,135,90,""
+492,shaymin,4,0.2,2.1,270,grass,,100,100,100,100,100,100,""
+493,arceus,4,3.2,320.0,324,normal,,120,120,120,120,120,120,""
+494,victini,5,0.4,4.0,270,psychic,fire,100,100,100,100,100,100,""
+495,snivy,5,0.6,8.1,62,grass,,45,45,55,63,45,55,""
+496,servine,5,0.8,16.0,145,grass,,60,60,75,83,60,75,""
+497,serperior,5,3.3,63.0,238,grass,,75,75,95,113,75,95,""
+498,tepig,5,0.5,9.9,62,fire,,65,63,45,45,45,45,""
+499,pignite,5,1.0,55.5,146,fire,fighting,90,93,55,55,70,55,""
+500,emboar,5,1.6,150.0,238,fire,fighting,110,123,65,65,100,65,""
+501,oshawott,5,0.5,5.9,62,water,,55,55,45,45,63,45,""
+502,dewott,5,0.8,24.5,145,water,,75,75,60,60,83,60,""
+503,samurott,5,1.5,94.6,238,water,,95,100,85,70,108,70,""
+504,patrat,5,0.5,11.6,51,normal,,45,55,39,42,35,39,""
+505,watchog,5,1.1,27.0,147,normal,,60,85,69,77,60,69,""
+506,lillipup,5,0.4,4.1,55,normal,,45,60,45,55,25,45,""
+507,herdier,5,0.9,14.7,130,normal,,65,80,65,60,35,65,""
+508,stoutland,5,1.2,61.0,225,normal,,85,110,90,80,45,90,""
+509,purrloin,5,0.4,10.1,56,dark,,41,50,37,66,50,37,""
+510,liepard,5,1.1,37.5,156,dark,,64,88,50,106,88,50,""
+511,pansage,5,0.6,10.5,63,grass,,50,53,48,64,53,48,""
+512,simisage,5,1.1,30.5,174,grass,,75,98,63,101,98,63,""
+513,pansear,5,0.6,11.0,63,fire,,50,53,48,64,53,48,""
+514,simisear,5,1.0,28.0,174,fire,,75,98,63,101,98,63,""
+515,panpour,5,0.6,13.5,63,water,,50,53,48,64,53,48,""
+516,simipour,5,1.0,29.0,174,water,,75,98,63,101,98,63,""
+517,munna,5,0.6,23.3,58,psychic,,76,25,45,24,67,55,""
+518,musharna,5,1.1,60.5,170,psychic,,116,55,85,29,107,95,""
+519,pidove,5,0.3,2.1,53,normal,flying,50,55,50,43,36,30,""
+520,tranquill,5,0.6,15.0,125,normal,flying,62,77,62,65,50,42,""
+521,unfezant,5,1.2,29.0,220,normal,flying,80,115,80,93,65,55,""
+522,blitzle,5,0.8,29.8,59,electric,,45,60,32,76,50,32,""
+523,zebstrika,5,1.6,79.5,174,electric,,75,100,63,116,80,63,""
+524,roggenrola,5,0.4,18.0,56,rock,,55,75,85,15,25,25,""
+525,boldore,5,0.9,102.0,137,rock,,70,105,105,20,50,40,""
+526,gigalith,5,1.7,260.0,232,rock,,85,135,130,25,60,80,""
+527,woobat,5,0.4,2.1,65,psychic,flying,65,45,43,72,55,43,""
+528,swoobat,5,0.9,10.5,149,psychic,flying,67,57,55,114,77,55,""
+529,drilbur,5,0.3,8.5,66,ground,,60,85,40,68,30,45,""
+530,excadrill,5,0.7,40.4,178,ground,steel,110,135,60,88,50,65,""
+531,audino,5,1.1,31.0,390,normal,,103,60,86,50,60,86,""
+532,timburr,5,0.6,12.5,61,fighting,,75,80,55,35,25,35,""
+533,gurdurr,5,1.2,40.0,142,fighting,,85,105,85,40,40,50,""
+534,conkeldurr,5,1.4,87.0,227,fighting,,105,140,95,45,55,65,""
+535,tympole,5,0.5,4.5,59,water,,50,50,40,64,50,40,""
+536,palpitoad,5,0.8,17.0,134,water,ground,75,65,55,69,65,55,""
+537,seismitoad,5,1.5,62.0,229,water,ground,105,95,75,74,85,75,""
+538,throh,5,1.3,55.5,163,fighting,,120,100,85,45,30,85,""
+539,sawk,5,1.4,51.0,163,fighting,,75,125,75,85,30,75,""
+540,sewaddle,5,0.3,2.5,62,bug,grass,45,53,70,42,40,60,""
+541,swadloon,5,0.5,7.3,133,bug,grass,55,63,90,42,50,80,""
+542,leavanny,5,1.2,20.5,225,bug,grass,75,103,80,92,70,80,""
+543,venipede,5,0.4,5.3,52,bug,poison,30,45,59,57,30,39,""
+544,whirlipede,5,1.2,58.5,126,bug,poison,40,55,99,47,40,79,""
+545,scolipede,5,2.5,200.5,218,bug,poison,60,100,89,112,55,69,""
+546,cottonee,5,0.3,0.6,56,grass,fairy,40,27,60,66,37,50,""
+547,whimsicott,5,0.7,6.6,168,grass,fairy,60,67,85,116,77,75,""
+548,petilil,5,0.5,6.6,56,grass,,45,35,50,30,70,50,""
+549,lilligant,5,1.1,16.3,168,grass,,70,60,75,90,110,75,""
+550,basculin,5,1.0,18.0,161,water,,70,92,65,98,80,55,""
+551,sandile,5,0.7,15.2,58,ground,dark,50,72,35,65,35,35,""
 552,krokorok,5,1.0,33.4,123,ground,dark,60,82,45,74,45,45
 553,krookodile,5,1.5,96.3,234,ground,dark,95,117,80,92,65,70
 554,darumaka,5,0.6,37.5,63,fire,,70,90,45,50,15,45
