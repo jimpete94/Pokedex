@@ -69,6 +69,10 @@ class App(Frame):
         self.sectype_disp = Text(self, width = 20, height = 2, wrap = WORD)
         self.sectype_disp.grid(row = 5, column = 3, sticky = W)
 
+        Label(self, text = "Description:").grid(row = 6, column = 0, sticky = W)
+        self.desc_disp = Text(self, width = 60, height = 5, wrap = WORD)
+        self.desc_disp.grid(row = 7, column = 0, columnspan = 5, sticky = W)
+
         # Create navigation buttons to go forward and backward through Pokédex
         Button(self, text = "Prev",
         command = self.prev_poke).grid(row = 6, column = 1, sticky = W)
@@ -145,16 +149,19 @@ class App(Frame):
         self.region_disp.delete(0.0, END)
         self.pritype_disp.delete(0.0, END)
         self.sectype_disp.delete(0.0, END)
+        self.desc_disp.delete(0.0, END)
 
         # If Pokémon is found, show data
         if int(self._pokeID) != 0:
+            img = self.load_image(data[1]+'.jpg')
+            self._img.paste(img)
             self.id_disp.insert(0.0, data[0])
             self.name_disp.insert(0.0, data[1].title())
             self.region_disp.insert(0.0, self._region_map[data[2]])
             self.pritype_disp.insert(0.0, data[6].capitalize())
             self.sectype_disp.insert(0.0, data[7].capitalize())
-            img = self.load_image(data[1]+'.jpg')
-            self._img.paste(img)
+            self.desc_disp.insert(0.0, data[14])
+
 
         # If not, display message
         else:
