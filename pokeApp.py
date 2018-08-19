@@ -36,49 +36,49 @@ class App(Frame):
         columnspan = 2, sticky = W)
 
         # Create canvas for displaying pokemon images
-        self.canvas = Canvas(self, width = 500, height = 300)
+        self.canvas = Canvas(self, width = 200, height = 100)
         self.canvas.grid(row = 1, column = 0,
-        columnspan = 5, sticky = W)
+        columnspan = 2, rowspan = 4, sticky = W)
 
         # Create a search box for users to search through the Pokédex
-        Label(self, text = "Search:").grid(row = 2, column = 0, sticky = W)
-        self.search_ent = Entry(self)
-        self.search_ent.grid(row = 2, column = 1, sticky = W)
+        #Label(self, text = "Search:").grid(row = 5, column = 0, sticky = W)
+        #self.search_ent = Entry(self, width = 12)
+        #self.search_ent.grid(row = 5, column = 1, sticky = W)
 
-        Button(self, text = "Go!",
-        command = self.search_poke).grid(row = 2, column = 2, sticky = W)
+        #Button(self, text = "Go!",
+        #command = self.search_poke).grid(row = 5, column = 2, sticky = W)
 
         # Create output boxes that display the Pokémon's data
-        Label(self, text = "ID:").grid(row = 3, column = 0, sticky = W)
-        self.id_disp = Text(self, width = 20, height = 2, wrap = WORD)
-        self.id_disp.grid(row = 3, column = 1, sticky = W)
+        Label(self, text = "ID:").grid(row = 1, column = 2, sticky = W)
+        self.id_disp = Text(self, width = 5, height = 1, wrap = WORD)
+        self.id_disp.grid(row = 1, column = 3, sticky = W)
 
-        Label(self, text = "Name:").grid(row = 3, column = 2, sticky = W)
-        self.name_disp = Text(self, width = 20, height = 2, wrap = WORD)
-        self.name_disp.grid(row = 3, column = 3, sticky = W)
+        Label(self, text = "Name:").grid(row = 2, column = 2, sticky = W)
+        self.name_disp = Text(self, width = 12, height = 1, wrap = WORD)
+        self.name_disp.grid(row = 2, column = 3, sticky = W)
 
-        Label(self, text = "Region:").grid(row = 4, column = 0, sticky = W)
-        self.region_disp = Text(self, width = 20, height = 2, wrap = WORD)
-        self.region_disp.grid(row = 4, column = 1, sticky = W)
+        Label(self, text = "Region:").grid(row = 3, column = 2, sticky = W)
+        self.region_disp = Text(self, width = 10, height = 1, wrap = WORD)
+        self.region_disp.grid(row = 3, column = 3, sticky = W)
 
-        Label(self, text = "Pri Type:").grid(row = 5, column = 0, sticky = W)
-        self.pritype_disp = Text(self, width = 20, height = 2, wrap = WORD)
-        self.pritype_disp.grid(row = 5, column = 1, sticky = W)
+        Label(self, text = "Pri Type:").grid(row = 5, column = 2, sticky = W)
+        self.pritype_disp = Text(self, width = 10, height = 1, wrap = WORD)
+        self.pritype_disp.grid(row = 5, column = 3, sticky = W)
 
-        Label(self, text = "Sec Type:").grid(row = 5, column = 2, sticky = W)
-        self.sectype_disp = Text(self, width = 20, height = 2, wrap = WORD)
-        self.sectype_disp.grid(row = 5, column = 3, sticky = W)
+        Label(self, text = "Sec Type:").grid(row = 6, column = 2, sticky = W)
+        self.sectype_disp = Text(self, width = 10, height = 1, wrap = WORD)
+        self.sectype_disp.grid(row = 6, column = 3, sticky = W)
 
-        Label(self, text = "Description:").grid(row = 6, column = 0, sticky = W)
+        #Label(self, text = "Description:").grid(row = 7, column = 0, sticky = W)
         self.desc_disp = Text(self, width = 60, height = 5, wrap = WORD)
         self.desc_disp.grid(row = 7, column = 0, columnspan = 5, sticky = W)
 
         # Create navigation buttons to go forward and backward through Pokédex
         Button(self, text = "Prev",
-        command = self.prev_poke).grid(row = 6, column = 1, sticky = W)
+        command = self.prev_poke).grid(row = 6, column = 0, sticky = W)
 
         Button(self, text = "Next",
-        command = self.next_poke).grid(row = 6, column = 2, stick = W)
+        command = self.next_poke).grid(row = 6, column = 1, stick = W)
 
     def fetch_id(self, query):
         """queries the pandas dataframe using ID, returns a series with data"""
@@ -110,7 +110,7 @@ class App(Frame):
         try:    # Use name from dataframe to look for image
             image_file = self._image_path+image
             img = Image.open(image_file)
-            img.resize((500, 300))
+            img.resize((200, 100))
             return img
         except FileNotFoundError:   # If not found, just show pokemon logo
             return self._welcome_img
@@ -165,7 +165,7 @@ class App(Frame):
 
         # If not, display message
         else:
-            self.name_disp.insert(0.0, data[1])
+            self.desc_disp.insert(0.0, data[1])
             self._img.paste(self._welcome_img)
 
 def main():
