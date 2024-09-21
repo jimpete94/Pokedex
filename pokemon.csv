@@ -384,7 +384,7 @@ id,species,generation_id,height,weight,base_experience,type_1,type_2,hp,attack,d
 383,groudon,3,3.5,950.0,302,ground,,100,150,140,90,100,90,"Groudon is said to be the personification of the land itself. Legends tell of its many clashes against Kyogre, as each sought to gain the power of nature."
 384,rayquaza,3,7.0,206.5,306,dragon,flying,105,150,90,95,150,90,"Rayquaza is said to have lived for hundreds of millions of years. Legends remain of how it put to rest the clash between Kyogre and Groudon."
 385,jirachi,3,0.3,1.1,270,steel,psychic,100,100,100,100,100,100,"A legend states that Jirachi will make true any wish that is written on notes attached to its head when it awakens. If this Pokémon senses danger, it will fight without awakening."
-386,deoxys,3,1.7,60.8,270,psychic,,50,150,50,150,150,50,""
+386,deoxys,3,1.7,60.8,270,psychic,,50,150,50,150,150,50,"The DNA of a space virus underwent a sudden mutation upon exposure to a laser beam and resulted in Deoxys. The crystalline organ on this Pokémon’s chest appears to be its brain."
 387,turtwig,4,0.4,10.2,64,grass,,55,68,64,31,45,55,""
 388,grotle,4,1.1,97.0,142,grass,,75,89,85,36,55,65,""
 389,torterra,4,2.2,310.0,236,grass,ground,95,109,105,56,75,85,""

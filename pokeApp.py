@@ -84,7 +84,7 @@ class App(Frame):
         """queries the pandas dataframe using ID, returns a series with data"""
         # Search between max and min values of pokedex, allows for future expansion
         if self._data.id.min() <= query <= self._data.id.max():
-            return self._data.query('id == "{}"'.format(query)).values[0]
+            return self._data.query('id == @query').values[0]
         else:
             message = 'ID number does not exist'
             return [0, message]
